@@ -63,9 +63,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:** De Pinkpop App die reflecteert op het einde van het festival, een eigen ontworpen opzet gemaakt bij Informatie Architectuur. 
 
 **Screenshot(s):**
-(images/homepage-achteraf.png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/homepage-achteraf.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets.jpg)
