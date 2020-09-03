@@ -60,7 +60,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Surface Plane
 
-**Je opdracht:** De Pinkpop App die reflecteert op het einde van het festival, een eigen ontworpen opzet gemaakt bij Informatie Architectuur. 
+**Je opdracht:** De Pinkpop App die reflecteert op het einde van het festival, een eigen ontworpen opzet gemaakt bij Informatie Architectuur. OF De Website van de Efteling. Pretparken zijn mijn aller grootste passie en de Efteling is zoals ze het noemen mijn "home park". Ik heb hier een abonnement en ga er vaak naartoe. De layout van de website lijkt me niet al te ingewikkeld om na te maken. 
 
 **Screenshot(s):**
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/homepage-achteraf.png)
