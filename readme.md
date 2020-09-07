@@ -71,4 +71,4 @@ De twee pagina's die mij het leukst lijken om te maken van de website is de home
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Note 7 Sep 2020.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/efteling4.png)
