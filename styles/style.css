@@ -1,5 +1,180 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
+body{
+  margin: 0 auto;
+  font-family:proxima-nova;
+  background-color: #fafaf7;
+  min-height: 100%;
+}
+
+h2{
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  font-size: 1em;
+}
+
+h1{
+  font-family: verner;
+}
+
+p{
+  font-family: open sans, sans-serif;
+}
+
+a{
+  text-decoration: none; /*bij alle links de decoratie weghalen*/
+}
+
+header { /*de hele header*/
+  background: linear-gradient(rgba(224, 204, 200, 0.90), rgba(224, 204, 200, 0.70)),   /*bron: https://cssgradient.io */
+  url(images/efteling-entree.jpg); /**/
+  background-size: cover; /*over de hele pagina*/
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+}
+
+header section { /*text in de header*/
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 3% 0 20%;
+}
+
+header section h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em; /*afstand tussen letters*/
+  line-height: 1.5em;
+  padding: 20px 10px;
+}
+
+header section a{
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  position: relative;
+  left: 30%;
+  background-color: rgba(255,255,255,0);
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 70%;
+}
+
+
+nav{
+  position: fixed;
+}
+
+nav ul {
+  list-style-type: none; /*lijst stijl weghalen*/
+  margin: 0 auto;
+  overflow: hidden; /
+  background-color: white;
+}
+
+nav ul li {
+  display: inline; /* alle linkjes naast elkaar*/
+  float: left; /*linkerkant van de navbar*/
+}
+
+nav ul li a {
+  text-align: center; /*text in midden van buttons*/
+  text-decoration: none;
+  display: block; /*dikker*/
+  padding: 15px 10px;
+}
+
+nav ul li a img{
+  height: 30px;
+  width: auto;
+}
+
+.buttons-on-header{
+  position: relative;
+  max-width: 80%;
+  margin-top: -40px;
+  left: 40px;
+
+}
+
+.reserveren{
+  font-size: 1em;
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  text-align: center;
+  display: block;
+  background-color: #fff;
+  border-bottom-width: 0;
+  border-color: #ede5d5;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-width: 1px;
+  color: #b71234;
+  padding: 15px 30px;
+
+}
+
+.slapen{
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  background-color: #fff;
+  border-color: #ede5d5;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  color: #b71234;
+  padding: 15px 30px;
+
+}
+
+.openingstijd{
+  position: relative;
+  border:solid 1px #ede5d5;
+  border-radius: 5px;
+  max-width: 80%;
+  left: 10%;
+  top: 10%;
+  padding: 5px 0 15px 20px;
+  margin-top: 10%;
+  margin-right: 10%;
+  background-color: #fff
+}
+
+.openingstijd h2{
+  color: #4d3928;
+  margin-bottom: -1px;
+}
+
+.openingstijd a{
+  text-decoration: underline;
+  font-family: open sans, sans-serif;
+  font-size: 1em;
+  color: #4d3928;
+  padding-top: 10px;
+}
+
+.overnachten{
+  position: relative;
+  left: 10%;
+  top: 10%;
+  max-width: 80%;
+  border:solid 1px #ede5d5;
+  border-radius: 5px;
+  padding: 5px 0 15px 20px;
+  background-color: #fff;
+  margin-top: 10%;
+  margin-right: 10%;
+
+}
