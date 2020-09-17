@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Website die ik na ga maken: https://www.efteling.com/nl?utm_source=tradetracker-uk&utm_medium=affiliate&utm_campaign=efteling-uk&utm_cntent=137190
+2. Hulp bij positioneren van tekst op afbeeldingen: https://css-tricks.com/design-considerations-text-images/
+3. Hoe maak je een "to top of page" button: https://stackoverflow.com/questions/19188211/how-to-add-fixed-button-to-the-bottom-right-of-page/19188239
 
 
 
