@@ -17,10 +17,15 @@ h2{
 
 h1{
   font-family: verner;
+  font-size: 1.8em;
+  color: white;
 }
 
 p{
   font-family: open sans, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #4d3928;
 }
 
 a{
@@ -28,53 +33,57 @@ a{
 }
 
 header { /*de hele header*/
-  background: linear-gradient(rgba(224, 204, 200, 0.90), rgba(224, 204, 200, 0.70)),   /*bron: https://cssgradient.io */
-  url(images/efteling-entree.jpg); /**/
+  background:url(https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/lente/1600x600-kinderen-bij-fontein.jpg?h=450&w=1600&focuspoint=-0.6%2c-0.07&hash=D4BCC38617B0BF52873E03A3974E5138); /**/
   background-size: cover; /*over de hele pagina*/
   background-position: center top;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 header section { /*text in de header*/
   max-width: 100%;
   margin: 0 auto;
-  padding: 3% 0 20%;
+  padding: 20% 0 26%;
+  background-color: rgba(0, 0, 0, .3);;
 }
 
 header section h1 {
   text-align: center;
-  color: white;
-  letter-spacing: 0.1em; /*afstand tussen letters*/
   line-height: 1.5em;
-  padding: 20px 10px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
 }
 
 header section a{
   font-family: ErnestineWebW03-Bold,sans-serif;
-  position: relative;
-  left: 30%;
   background-color: rgba(255,255,255,0);
   border: 2px solid #fff;
   color: #fff;
-  padding: 8px;
-  margin-bottom: 100px;
+  padding: 8px 20px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   max-width: 70%;
+  margin-top: -40px;
+  margin-left: 25%;
 }
-
 
 nav{
   position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  overflow: hidden;
 }
 
 nav ul {
   list-style-type: none; /*lijst stijl weghalen*/
   margin: 0 auto;
-  overflow: hidden; /
-  background-color: white;
+  background-color: #fff;
+  margin-top: -5px;
 }
 
 nav ul li {
@@ -94,12 +103,40 @@ nav ul li a img{
   width: auto;
 }
 
-.buttons-on-header{
-  position: relative;
-  max-width: 80%;
-  margin-top: -40px;
-  left: 40px;
+.scroll-to-top{
+  position: absolute;
+}
 
+.scroll-to-top a{
+  position: fixed;
+  bottom: 2%;
+  right: 5%;
+  width: 10%;
+  height: auto;
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  color: #fff;
+  padding: 8px 25px 8px 14px;;
+  border-radius: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 70%;
+  margin-top: -40px;
+  background-color: #b71234;;
+  border: 1px solid #b71234;
+
+}
+
+.logo{
+  float: left;
+  height: 40px;
+  width: auto;
+  margin-right: 30px;
+}
+
+.buttons-on-header{
+  max-width: 90%;
+  margin-top: -40px;
+  margin-left: 5%;
 }
 
 .reserveren{
@@ -140,15 +177,13 @@ nav ul li a img{
 }
 
 .openingstijd{
-  position: relative;
   border:solid 1px #ede5d5;
   border-radius: 5px;
-  max-width: 80%;
-  left: 10%;
-  top: 10%;
+  max-width: 90%;
   padding: 5px 0 15px 20px;
   margin-top: 10%;
-  margin-right: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
   background-color: #fff
 }
 
@@ -165,16 +200,157 @@ nav ul li a img{
   padding-top: 10px;
 }
 
-.overnachten{
-  position: relative;
-  left: 10%;
-  top: 10%;
-  max-width: 80%;
+.wrapper{
+}
+
+.allerkleinste, .familie, .waaghalzen{
+  max-width: 90%;
   border:solid 1px #ede5d5;
   border-radius: 5px;
   padding: 5px 0 15px 20px;
   background-color: #fff;
   margin-top: 10%;
-  margin-right: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
 
+.allerkleinste, .familie, .waaghalzen section h2{
+  color: #b71234;
+  margin-bottom: -12px;
+}
+
+.allerkleinste-tekst, .familie-tekst, .waaghalzen-tekst{
+  margin-right: 25px;
+}
+
+.img-allerkleinste img, .img-familie img, .img-waaghalzen img, .max-en-moritz img{
+  max-width: 150%;
+  height: auto;
+  padding-right: 10%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: -5%;
+  /*margin-left: 10%;
+  /*margin-bottom: -12%;
+  /*margin-top: 10%;*/
+}
+
+.allerkleinste-button, .familie-button, .waaghalzen-button{
+  border-radius: 5px;
+  margin-top: 15%;
+  margin-bottom: 4%;
+}
+
+.allerkleinste-button a, .familie-button a, .waaghalzen-button a, .max-en-moritz a{
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ede5d5;
+  color: #b71234;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  padding: 10px 15px 8px 15px;
+}
+
+.alle-attracties{
+  margin: 15% 0 15% 22%;
+}
+
+.alle-attracties a, .plattegrond a{
+  font-family: ErnestineWebW03-Bold,sans-serif;
+  background-color: #b71234;;
+  border-radius: 5px;
+  border: 1px solid #b71234;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 8px;
+  padding: 10px 15px 8px 15px;
+}
+
+.plattegrond{
+  position: relative;
+  text-align: center;
+  background: url(https://i0.wp.com/eftelingsestraat.nl/wp-content/uploads/2018/04/efteling-plattegrond-header.jpg?fit=1025%2C587&ssl=1);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .3);
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*.plattegrond img{
+  background-color: rgba(0, 0, 0, .3);
+  height: auto;
+  width: 100%;
+}*/
+
+.plattegrond h1{
+  padding: 20% 0 20% 0;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.plattegrond {
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+    url(https://i0.wp.com/eftelingsestraat.nl/wp-content/uploads/2018/04/efteling-plattegrond-header.jpg?fit=1025%2C587&ssl=1);
+  background-size: cover;
+  height: 70vh;
+  margin-bottom: 20%;
+}
+
+.plattegrond div {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top:5%;
+  color: white;
+  text-align: center;
+}
+
+.max-en-moritz{
+  margin-bottom: 20%;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 5px 0 15px 8px;
+  max-width: 95%;
+  display: block;
+}
+
+.max-en-moritz hr{
+  background-color: #b71234;
+  width: 100px;
+  margin-top: 15px;
+  display: inline-block;
+  border-top-width: 2px;
+  position: relative;
+  border: 2px solid #ede5d5;
+  border-bottom-width: 0;
+  height: 0;
+}
+
+.max-en-moritz h2{
+  font-size: 20px;
+  color: #b71234;
+  margin-bottom: -0px;
+}
+
+.max-en-moritz a{
+  margin-top: 10%;
+}
+
+.max-en-moritz p{
+  padding-right: 5%;
+  margin-bottom: 8%;
+}
+
+.max-en-moritz img{
+  max-width: 100%;
+  width: 440px;
+  height: auto;
+  margin-left: 0;
 }
