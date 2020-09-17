@@ -47,8 +47,8 @@ Toen ik dat besloten had ging het opeens een stuk beter en werd het ook een beet
 Wel vond ik het nog erg moeilijk om dingen exact als de originele website te krijgen. Als perfectionist zijnde is zo'n opdracht best lastig, omdat ik het eigenlijk nooit genoeg vond. Het was het altijd net niet, dan weer een tikkeltje te groot, dan weer te klein, nu moet het weer meer naar rechts... Het was best moeilijk om dit even los te laten en me te concentreren op wat grotere dingen en later pas terug te komen op de details. 
 
 **Screenshot(s):**
-(images/website-progressie1.png)
-(images/website-progressie.png)
+!(images/website-progressie1.png)
+!(images/website-progressie.png)
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
