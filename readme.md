@@ -37,8 +37,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
-**Week 2:**
-In week 2 ben ik echt begonnen met het coderen van de website. Al snel liep ik tegen vanalles aan en werd ik enorm gefrustreerd. Ik begon met de header (navigatie) te maken van de website, maar dit bleek nog moeilijker dan ik had verwacht. 
+In week 2 en 3 ben ik echt begonnen met het coderen van de website. Al snel liep ik tegen vanalles aan en werd ik enorm gefrustreerd. Ik begon met de header (navigatie) te maken van de website, maar dit bleek nog moeilijker dan ik had verwacht. 
 
 De navigatie van De Efteling in mobile versie bestaat namelijk alleen uit icoontjes, dit had ik nog nooit eerder gedaan. Ik heb 3 pogingen gedaan om dit op orde te krijgen. Ik had dan weer met css wat 'gekloot' en uiteindelijk alle regels uit frustratie weer verwijderd en opnieuw begonnen. Op gegeven moment kwam ik met het uitstekende idee om eerst verder te gaan met de content van de website. 
 
@@ -51,7 +50,10 @@ Wel vond ik het nog erg moeilijk om dingen exact als de originele website te kri
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie.png)
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+We hebben samen met ons groepje afgesproken dat we de volgende zaken gaan bespreken:
+1. Hamburger menu; hoe werkt het uitklappen met javascript en hoe krijg je het goed gepositioneerd.
+2. Flexbox toepassen op context; hoe zorg je ervoor dat flexbox doet wat je wil.
+3. Hoe krijg je de icoontjes in de navigatiebalk zoals jij dat wil, inclusief logo.
 
 ### Verslag van meeting
 
