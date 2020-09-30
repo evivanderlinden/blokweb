@@ -9,7 +9,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. Website die ik na ga maken: https://www.efteling.com/nl?utm_source=tradetracker-uk&utm_medium=affiliate&utm_campaign=efteling-uk&utm_cntent=137190
 2. Hulp bij positioneren van tekst op afbeeldingen: https://css-tricks.com/design-considerations-text-images/
 3. Hoe maak je een "to top of page" button: https://stackoverflow.com/questions/19188211/how-to-add-fixed-button-to-the-bottom-right-of-page/19188239
-
+4. Hoe kan je de breedte van een HTML element aanpassen: https://stackoverflow.com/questions/4667651/set-element-width-or-height-in-standards-mode
 
 
 ## Eindgesprek (week 7/8)
