@@ -29,10 +29,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 2 (week 5)
+### Stand van zaken
 
--same as voortgang 1-
+**Screenshot(s):**
 
+### Agenda voor meeting
 
+### Verslag van meeting
 
 ## Voortgang 1 (week 3)
 
@@ -56,8 +59,11 @@ We hebben samen met ons groepje afgesproken dat we de volgende zaken gaan bespre
 3. Hoe krijg je de icoontjes in de navigatiebalk zoals jij dat wil, inclusief logo.
 
 ### Verslag van meeting
+1. Je kan iconen in een navigatie makkelijk aanpassen door gebruik te maken van SVG bestanden. Je kan namelijk makkelijk de properties van een SVG aanpassen, zoals de hoogte en breedte. Zo kun je er makkelijk voor zorgen dat alle iconen er hetzelfde uitzien en kun je je navigatie maken. Voor het animeren van het menu kun je kijken naar de opdracht van de vorige les waarin er ook werd gewerkt met een slide-in menu.
 
--na afloop snel uitkomsten vastleggen-
+2. Het is belangrijk dat je flexbox toepast op de juiste content. Let hierbij goed op het gebruik van sections en gebruik deze ook zeker niet te veel. De basisregel is dat je voor iedere section een titel nodig hebt. Dus een H1, H2 etc. Als je je sections op orde hebt is het al een stuk makkelijker om een overzicht te hebben op welke elementen in je HTML je flexbox kan en moet toepassen.
+
+3. Let erop dat je niet teveel classes gebruikt in je html. Probeer zoveel mogelijk te werken met nth-of-type() om -zoals Danny het noemt- Classerietus te voorkomen. Gebruik classes alleen waar het echt nodig is, zoals het stylen van dezelfde element types op verschillende pagina's.
 
 
 
