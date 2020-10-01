@@ -99,7 +99,7 @@ nav ul li a {
 }
 
 nav ul li a img{
-  height: 30px;
+  height: 25px;
   width: auto;
 }
 
@@ -300,6 +300,7 @@ nav ul li a img{
   background-size: cover;
   height: 70vh;
   margin-bottom: 20%;
+  z-index: -1;
 }
 
 .plattegrond div {
@@ -353,4 +354,75 @@ nav ul li a img{
   width: 440px;
   height: auto;
   margin-left: 0;
+}
+
+/* attracties */
+.attracties-main p{
+}
+
+.attracties-main section:nth-of-type(1){
+  text-align: center;
+  max-width: 80%;
+  padding-top: 20%;
+  padding-left: 30px;
+}
+
+.attracties-main section:nth-of-type(2){
+  background: url(https://i0.wp.com/eftelingsestraat.nl/wp-content/uploads/2020/06/800_maxenmoritz-achtbaanmetbezoekers-efteling2020.jpg?fit=800%2C450&ssl=1);
+  background-size: cover;
+  width:auto;
+  height: 600px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  color: #fff;
+}
+
+/* navigatie-hamburger*/
+nav ul li:nth-of-type(4){
+  font-family: open sans, sans-serif;
+  font-size: 18px;
+  color: #4d3928;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1; /*top layer */
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #4d3928;
+  display: block;
+  transition: 0.3s;
+  font-family: ErnestineWebW03-Bold,sans-serif;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
