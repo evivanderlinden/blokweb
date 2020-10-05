@@ -30,12 +30,38 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 ### Stand van zaken
+De weken na het eerste voortgangsgesprek gingen niet zoals gepland. Ik was heel gemotiveerd en was goed opweg, ik liep zelfs op dat moment voor op sommige andere studenten. Opeens kreeg ik een appartement en moest ik volledig omschakelen en alles zo snel mogelijk gaan verhuizen. Kwam dit op het juiste moment? Absoluut niet. Ik heb hierdoor mijn schoolwerk een week tot 2 weken verwaarloosd omdat ik er simpelweg geen tijd voor had en ook niet de middelen om eraan te werken. 
+
+Bij andere vakken was dat voor mij niet zo'n issue, maar voor FeD is dat heel lastig geweest. Ik merkte vorig jaar al dat vakken waar je voor moet coderen erg lastig zijn om bij te houden als je een weekje hebt gemist. Ik heb er dan ook vrij weinig aan gewerkt. Het is me gelukt om een begin te maken aan de detail pagina, en met een begin bedoel ik ook echt alleen een begin. Wel is het me nog gelukt om mijn menu een animatie te geven zodat hij eruit slide. Alleen hij komt nog in de pagina vanaf de verkeerde kant. 
+
+Mijn detailpagina is verder echt nog een mess, ik heb wel al zitten spelen met positionering en hoe ik de fonts eventueel goed kan krijgen, maar dat is allemaal nog niet zo succesvol. Al met al ben ik erg teleurgesteld dat ik zo weinig heb kunnen doen, en ik baal er ook gewoon van. Het zou me niks verbazen als dit mijn eerste vak wordt wat ik moet herkansen...
+
+Dingen die ik nog moet doen asap voor volgende week:
+- Detailpagina afmaken
+- Footer in orde maken
+- Github beter aanvullen en bijhouden
+- werken aan micro-interactie
+
 
 **Screenshot(s):**
 
 ### Agenda voor meeting
+1. Bespreken in hoeverre je je github moet vullen
+2. Bespreken micro-animaties, hoeveel animaties zullen voldoende zijn
+3. Bespreken het verschil tussen article en section
+
+(het groepje geeft weinig input, iemand die heeft zijn site al af en heeft geen agenda punten meer, en iemand die zegt dat ze nog niet ver is. De agenda punten van deze week komen dus van 2 mensen af.)
 
 ### Verslag van meeting
+De meeting verliep stroef en ging niet zo lekker als de eerste meeting. Ik had bij dit gesprek liever bij een ander groepje willen belanden die veel hadden gedaan deze weken, zodat er wat meer besproken kon worden. Ik kreeg een sterk gevoel dat ik niet de enige was die weinig progressie had gemaakt deze weken. 
+De dingen die we hebben besproken zijn wel nuttig.
+
+- Over Github werd kort en krachtig gesproken; Zet in principe zoveel mogelijk in Github van je process en je denkwijzes. Laat zien hoe je aan bepaalde dingen komt en hoe je ze gemaakt hebt. Laat eventueel ook huiswerk zien wat je gemaakt hebt om te laten zien dat je je best hebt gedaan. Vraag eventueel aan medestudenten hoe hun Github eruit ziet om daar ook inspiratie vandaan te halen.
+
+- Het verschil tussen een article en section is voor mij bij het vorige gesprek al beantwoord. Bij een section is het essentieel om een h1, h2 etc te bevatten. Een article functioneert op zichzelf. 
+
+- Verder heb ik geleerd dat de HvA over het algemeen erg streng is over semantisch correcte code, dus dat is iets waar ik nog extra aandacht aan ga besteden.
+- Ook is het belangrijk om de classeritus weg te halen die bij mij nog wel zeker aanwezig is, ook moet ik nog wat sections weg gaan halen die overbodig zijn.
 
 ## Voortgang 1 (week 3)
 
