@@ -7,25 +7,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Efteling</title>
 	<link href="styles/style.css" rel="stylesheet">
-	<link href="//db.onlinewebfonts.com/c/f640ba0a4e6a7ecded43140be7b68289?family=FF+Ernestine" rel="stylesheet" type="text/css"/>
 </head>
 
 <body id="top">
 	<!--side menu-->
-
 	<header>
 		<!--nav bar-->
 		<nav>
 			<ul>
-				<li class="logo"><a href="index.html"><img src="images/efteling-logo.png" alt="logo"> </a> <!-- Logo --></li>
+				<li><a href="index.html"><img src="images/efteling-logo.png" alt="logo"> </a> <!-- Logo --></li>
 				<li><a href="basket" class="header-nav-basket"><img src="images/supermarket.png" alt="supermarket"></a></li>
 				<li><a href="search"><img src="images/search.png" alt="search"></a></li>
 				<!--<li><a href="menu"><img src="images/open-menu.svg" alt="menu"></a></li>-->
-				<li><a href="#">MENU &#9776; </a></li>
+				<li><a href="#">MENU
+					<div>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+				</a></li>
 			</ul>
 
-			<div id="Sidenav" class="sidenav">
-				<a href="javascript:void(0)" class="closebtn">&times;</a>
+			<div id="sidenav">
+				<a href="javascript:void(0)">&times;</a>
 				<a href="#">Ontdek het Park</a>
 					<p>Het park</p>
 					<p>Alle seizoenen geopend</p>
@@ -48,72 +53,67 @@
 	</header>
 
 <main class="index-main">
-	<section class="buttons-on-header">
-		<a href="attracties.html" class="reserveren">Reserveren & tickets kopen</a>
-		<a href="attracties.html" class="slapen">Blijf Slapen</a>
-	</section>
-
 	<!-- scroll to top -->
-	<section class="scroll-to-top">
+	<section>
 		<a href="#top">&uarr;</a>
 	</section>
 
-	<section class="openingstijd">
+	<section>
+		<a href="attracties.html">Reserveren & tickets kopen</a>
+		<a href="attracties.html">Blijf Slapen</a>
+	</section>
+
+	<section>
 		<h2>Vandaag 10.00 - 18.00</h2>
 		<a href="index.html">Bekijk alle openingstijden</a>
 	</section>
 
 
-<section class="wrapper">
-
+<article> <!--article of niet-->
 <!--ALLERKLEINSTEN-->
-	<section class="allerkleinste">
-		<section class="img-allerkleinste">
-			<img src="images/allerkleinsten.jpg" alt="allerkleinsten">
-		</section>
-		<section class="allerkleinste-tekst">
+	<section>
+		<img src="images/allerkleinsten.jpg" alt="allerkleinsten">
+		<div>
 			<h2>De allerkleinsten</h2>
 			<p>Rondjes maken in de draaimolen of op schoot in een van de vele attracties. Ook de allerkleinste vermaken zich in de Efteling.</p>
-		</section>
-		<section class="allerkleinste-button">
+		</div>
+		<div>
 			<a href="attracties.html">Attracties voor kleintjes</a>
-		</section>
+		</div>
 	</section>
 
 <!--FAMILIE-->
-		<section class="familie">
-			<section class="img-familie">
-				<img src="images/familie.jpg" alt="familie">
-			</section>
-			<section class="familie-tekst">
+		<section>
+			<img src="images/familie.jpg" alt="familie">
+			<div>
 				<h2>De hele familie</h2>
 				<p>Loop met z’n allen door het Sprookjesbos of ontdek Symbolica, een betoverend paleis waar de fantasie tot leven komt. De Efteling is het leukste familie-uitje ooit!</p>
-			</section>
-			<section class="familie-button">
+			</div>
+			<div>
 				<a href="attracties.html">Alle familie-attracties</a>
-			</section>
+			</div>
 	</section>
 
 <!--WAAGHALZEN-->
-	<section class="waaghalzen">
-			<section class="img-waaghalzen">
-				<img src="images/waaghalzen.jpg" alt="waaghalzen">
-			</section>
-			<section class="waaghalzen-tekst">
+	<section>
+			<img src="images/waaghalzen.jpg" alt="waaghalzen">
+			<div>
 				<h2>Waaghalzen</h2>
 				<p>Durf jij over de kop te gaan of het diepe in te duiken? Ook voor waaghalzen heeft de Efteling een groot assortiment attracties.</p>
-			</section>
-			<section class="waaghalzen-button">
+			</div>
+			<div>
 				<a href="attracties.html">Attracties voor waaghalzen</a>
-			</section>
+			</div>
 		</section>
-	</section>
+	</article>
 
-	<section class="alle-attracties">
+	<!--alle attracties button-->
+	<section>
 		<a href="attracties.html">Bekijk alle attracties</a>
 	</section>
 
-	<section class="max-en-moritz">
+	<!--max en moritz section-->
+	<section>
 		<img src="images/max-en-moritz.jpg" alt="maxenmoritz">
 		<h2>Max &amp; Moritz nu geopend!</h2>
 		<hr>
@@ -123,20 +123,19 @@
 		<a href="attracties.html">Ontdek Max &amp; Moritz ></a>
 	</section>
 
-	<section class="plattegrond">
+	<section>
 		<div>
-			<!--<img src="images/plattegrond.png" alt="plattegrond"> -->
 			<h1>ontdek de wondere wereld van de efteling</h1>
 			<a href="index.html">Bekijk de plattegrond</a>
 		</div>
 	</section>
 </main>
 
-	<footer>
+<footer>
 
-	</footer>
+</footer>
 
-	<script src="scripts/script.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 
 </html>
