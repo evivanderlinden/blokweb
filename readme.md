@@ -6,10 +6,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. Website die ik na ga maken: https://www.efteling.com/nl?utm_source=tradetracker-uk&utm_medium=affiliate&utm_campaign=efteling-uk&utm_cntent=137190
-2. Hulp bij positioneren van tekst op afbeeldingen: https://css-tricks.com/design-considerations-text-images/
-3. Hoe maak je een "to top of page" button: https://stackoverflow.com/questions/19188211/how-to-add-fixed-button-to-the-bottom-right-of-page/19188239
-4. Hoe kan je de breedte van een HTML element aanpassen: https://stackoverflow.com/questions/4667651/set-element-width-or-height-in-standards-mode
+- Website die ik na ga maken: https://www.efteling.com/nl?utm_source=tradetracker-uk&utm_medium=affiliate&utm_campaign=efteling-uk&utm_cntent=137190
+- Hulp bij positioneren van tekst op afbeeldingen: https://css-tricks.com/design-considerations-text-images/
+- Hoe maak je een "to top of page" button: https://stackoverflow.com/questions/19188211/how-to-add-fixed-button-to-the-bottom-right-of-page/19188239
+- Hoe kan je de breedte van een HTML element aanpassen: https://stackoverflow.com/questions/4667651/set-element-width-or-height-in-standards-mode
+- Animeren hamburger icoon: https://css-tricks.com/line-animated-hamburger-menu/
+- Animeren hamburger icoon: https://www.hongkiat.com/blog/hamburger-menu-animations/
+- SVG animeren: https://www.youtube.com/watch?v=gWai7fYp9PY
+- SVG animeren: https://www.youtube.com/watch?v=Ca3ZkTV4RdM
 
 
 ## Eindgesprek (week 7/8)
@@ -23,10 +27,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 3 (week 6)
+### Stand van zaken
+**Screenshot(s):**
 
--same as voortgang 1-
+### Agenda voor meeting
+- Bespreken hoe je een animatie kan laten gebeuren - eenmalig - zodra je de pagina inlaadt.
+- Oplossen error in code van javascript
+- Waarom is het zo belangrijk dat je zo weinig mogelijk classes hebt (ik vind het maar onduidelijkheid scheppen)
+- Bepaald stukje in mijn code: Moet dit een article of section zijn?
 
-
+### Verslag van meeting
 
 ## Voortgang 2 (week 5)
 ### Stand van zaken
