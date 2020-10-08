@@ -14,6 +14,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - Animeren hamburger icoon: https://www.hongkiat.com/blog/hamburger-menu-animations/
 - SVG animeren: https://www.youtube.com/watch?v=gWai7fYp9PY
 - SVG animeren: https://www.youtube.com/watch?v=Ca3ZkTV4RdM
+- CSS selectoren begrijpen: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
 
 ## Eindgesprek (week 7/8)
