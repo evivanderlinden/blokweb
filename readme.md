@@ -15,6 +15,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - SVG animeren: https://www.youtube.com/watch?v=gWai7fYp9PY
 - SVG animeren: https://www.youtube.com/watch?v=Ca3ZkTV4RdM
 - CSS selectoren begrijpen: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+- SvG tag HTML: https://css-tricks.com/using-svg/
 
 
 ## Eindgesprek (week 7/8)
@@ -29,6 +30,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 ### Stand van zaken
+Laat ik beginnen met zeggen dat ik 1 week tussen 2 voortgangsgesprekken eigenlijk te weinig is. Deze week hadden we namelijk verschillende deadlines van andere vakken, waardoor dit vak al snel even naar de achtergrond verdwijnt. Ik heb zeker niet stilgezeten, maar ik had liever het gesprek een halve week tot week later willen hebben. (in de herfsvakantie was perfect geweest, maarja, dan is het 'vakantie'). 
+
+Over het algemeen heb ik de draad weer opgepakt waar ik gebleven was. Ik had vorige week wat dingen genoteerd die ik graag af wil hebben, en dat is wel redelijk gelukt. Mijn detailpagina heb ik verder op orde gemaakt, deze is nu zo ver af. Alle attracties staan mooi op een rijtje en zien er goed uit. De footer ben ik eerlijk gezegd nog niet aan begonnen, en ik weet niet zo goed waarom. Ik vind de footer denk ik het aller saaiste om aan te beginnen, en stel deze dan dus ook wat meer uit. Ik vind het leuker om eerst een begin te maken aan verschillende micro-interacties en animaties. 
+
+Hier ben ik dan ook al mee begonnen. Ik heb enorm zitten kloten met een animatie maken voor mijn menu; dat hij van een hamburger naar een kruis gaat. Dit blijkt nog verassend moeilijk te zijn. Ik heb al tientallen voorbeelden bekeken en uitgeprobeerd in mijn eigen website, maar heb tot nu toe nog geen succes. Ik heb het gevoel dat de animatie wel werkt, maar ik krijg hem niet lekker gepositioneerd in mijn navigatie. Hierdoor zie je hem meestal niet eens of gebeuren er de gekste dingen met de andere elementen. Daarom heb ik dat even aan de kant gezet en ben ik begonnen aan een andere animatie; een SVG animatie! Dit was zonder twijfel voor mij het 'hoogtepunt' van werken aan de website. 
+
+Ik heb namelijk zelf een reuzenradje gemaakt in Illustrator (dat is sowieso al leuk) en vervolgens ontdekt hoe je zo'n SVG eigenlijk redelijk makkelijk helemaal kan aanpassen in html/css. Ik kwam er bijvoorbeeld achter dat als je een SVG opent hij automatisch de properties (fill, kleur, lijndikte) heeft overgezet naar een style in css. Toen begreep ik dus dat ik ook makkelijk vanuit de css mijn SVG kon aanpassen zonder constant illustrator te openen. Ook had ik door dat hij letterlijk alle vormen die je hebt gebruikt voor de SVG laat zien als vormen (circle, polygon, square etc) en ben ik gaan kijken wat alle getalletjes doen als je ze aanpast. Zo heb ik geprobeerd zelf een polygon te maken zonder het gebruik van Illustrator, maar dat was nog best lastig. Ik kwam toen uit op <polygon points="250,60 100,400 400,400"/>, maar het was iedere keer net niet wat ik wilde. uiteindelijk heb ik toch maar Illustrator ingeschakeld. 
+
+Ook het gebruik van Keyframes vond ik leuk en interessant, dat je daarmee makkelijk een animatie kan maken en een eigen naam geven. Toen ik voor het eerst een animatie had gemaakt en ik ontdekte dat het lukte, schoten me ineens heel veel ideeen te binnen van dingen die ik had kunnen maken. Maar ik heb hier simpelweg in de laatste 2 weken te weinig tijd voor. Dus misschien dat ik in mijn vrije tijd het nog een keer ga oppakken om te kijken wat er nog meer mogelijk is met keyframes en SVGtjes. 
+
+Naast het animeren ben ik heel trots begonnen aan het weghalen van al mijn classes, maar dit werkte helaas averechts. Ik heb denk ik te weinig gecontroleerd hoe mijn website eruit zou komen te zien als ik bepaalde dingen weg zou halen. Hierdoor was dus uiteindelijk mijn hele website verpest en stond eigenlijk niks meer hoe het zou horen te staan. Dit oplossen heeft me veel tijd gekost en was echt weer een demotiverende klap. Ik ben blij dat ik alleen classes heb gebruikt in mijn hoofdpagina en niet de detailpagina. Over het algemeen snap ik nogsteeds niet 100% het nut van geen classes hebben in je html, omdat ik nu echt het gevoel heb dat iemand anders er niks van zal begrijpen wat wat is. Zelf ben ik ook lang aan het zoeken welk element ik nou precies moet hebben in css omdat alles eigenlijk dezelfde namen heeft. Ik probeer nu met commentaar duidelijk te maken waar wat staat, maar of dit nou fijner is dan met classes werken betwijfel ik...
+
 **Screenshot(s):**
 
 ### Agenda voor meeting
