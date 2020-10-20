@@ -51,6 +51,14 @@ Naast het animeren ben ik heel trots begonnen aan het weghalen van al mijn class
 - Bepaald stukje in mijn code: Moet dit een article of section zijn?
 
 ### Verslag van meeting
+De meeting van deze keer verliep een heel stuk soepeler dan de keer met de studentassistent. Dit ligt niet aan de assistenten, maar ik vind het over het algemeen fijn er om met de docent over de eindopdracht te praten omdat hij ook degene is die het moet beoordelen. Dus Danny's kijk op dingen vind ik belangrijker voor de eindopdracht dan die van andere (klinkt misschien raar, maar het is zo haha). 
+
+Ik heb er dus voor gekozen om bij dit gesprekje vooral te focussen op de eisen voor een voldoende, aangezien dat ook belangrijk is om te weten. Zo is het voor mij nu duidelijk dat ik qua surface plane de goede kant op ga. Ik moet nog een paar animatied toevoegen. De menu slide in samen met de top-to-page is knop telt als 1 goede animatie. Daarnaast als ik met SVG ga animeren (menu knop animatie en reuzenrad op attracties homepage) kan ik nog wat extra puntjes scoren. Ook is het nog belangrijk dat ik laat zien wanneer iets visited is, of active. 
+
+Ook is mij nu duidelijk dat ik niet per se alle attracties hoef te laten zien van de attracties pagina, omdat dat me simpelweg te veel tijd zou gaan kosten. Een stuk of 10 zou genoeg moeten zijn. Danny had nog het leuke idee om dan te werken met een "laad meer" knop waarbij je dus meer resultaten krijgt te zien als je die gebruikt. 
+
+Verder is dus alles voor mij duidelijk wat er nog moet gebeuren voor de eindbeoordeling.
+
 
 ## Voortgang 2 (week 5)
 ### Stand van zaken
