@@ -16,7 +16,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - SVG animeren: https://www.youtube.com/watch?v=Ca3ZkTV4RdM
 - CSS selectoren begrijpen: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 - SvG tag HTML: https://css-tricks.com/using-svg/
-
+- nth-selectors: https://css-tricks.com/useful-nth-child-recipies/
 
 ## Eindgesprek (week 7/8)
 
