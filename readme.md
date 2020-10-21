@@ -23,8 +23,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Eindgesprek (week 7/8)
+Nou het is zover, ik kan het gaan inleveren... Ben ik tevreden? Nee, niet echt. Ik had hier veeeeel meer uit kunnen halen, maar het is me gewoon niet gelukt omdat ik er geen tijd voor had. Ik heb snel nog zoveel mogelijk in mijn website kunnen stoppen (waar ik overigens wel echt trots op ben) maar het is gewoon niet wat het had kunnen zijn. Dingen die ik nog graag had toe willen voegen zijn:
+- Hamburger menu SVG animatie, dit is niet gelukt omdat ik niet lang genoeg de tijd heb gehad om uit te zoeken hoe dit werkt.
+- Subemnu's Plus naar minnetje SVG animatie, hetzelfde als de vorige.
+- Verwijderen van alle classes, ik heb dit geprobeerd maar het blijkt zoveel werk te zijn omdat ik niet de elementen geselecteerd krijg die ik wil. Ik heb op mijn attracties.html pagina wel zo min mogelijk classes gebruikt en ben daar wel blij mee. Maar ik had graag gewild dat mijn Index er ook zo uit zou zien. Ik hoop dat ik met mijn detail pagina wel in ieder geval kan laten zien dat ik begrijp hoe het werkt en dat ik het ook wel kan.
+-linkjes visited, hover en active fixen, ik heb ze in mijn code staan maar ik heb ze niet werkend gekregen omdat ze worden overgeschreven door een andere kleur.
+-Vloeiend inladen van de attracties bij het scrollen, ik heb ik me nog niet eens in kunnen verdiepen, maar had ik er graag in willen doen.
 
--dit ging goed & dit was lastig-
+En over het algemeen wat perfectioneer puntjes om het echt te krijgen hoe ik het gewild. Wel zijn er dingen van de website die me wel gelukt zijn waar ik ook heel trots op ben. Denk bijvoorbeeld aan:
+- Het inschuif menu met alle submenuutjes. Deze werken fantastisch en het ziet er echt uit als op de Efteling website. Ik had nooit gedacht dat dit zou lukken en heeft me ook heel lang geduurd.
+- De footer, dit is in principe hetzelfde systeem als bij het menu, maar dan iets makkelijker omdat het niet hoeft in te schuiven.
+- De laad meer knop bij attracties vind ik heel leuk, het is een simpel iets maar toch heel leuk dat ik het werkend heb gekregen.
+- De SVG animatie van het reuzenradje dat de hele tijd draait, dit is zonder twijfel mijn favoriete element op de website.
+- De top-to-page knop die ik voor elkaar heb gekregen. Hij loopt smooth naar boven en dat is ook wel leuk.
+- Over het algemeen de uitstraling van de Website, ik vind zelf dat het me erg goed gelukt is om het gevoel van de Efteling website over te brengen en na te maken. Op het punt dat ik zelf soms verward was welke van mij was en welke de originele ;)
+
+Over het algemeen ben ik wel heel trots op wat ik heb neer kunnen zetten. Het is zeker nog niet klaar, maar ik heb mijn best gedaan om nog zo ver mogelijk te komen. Ik heb veel frustraties en moeilijkheden gehad met het maken van de website, in het begin ben ik 3x opnieuw begonnen, toen ik mijn classes had weggehaald moest ik mijn code 'resetten' omdat ik het niet gefixt kreeg, en nog tientallen andere hindernissen tijdens het coderen en programmeren waar ik uren over heb gedaan om eruit te komen.
+
+Wel heb ik echt een enorme vooruitgang geboekt dankzij dit vak in mijn vaardigheden op het gebied van html/css, maar ook zeker javascript en animeren met css. Ik heb veel nieuwe dingen geleerd en vond het ook een leuke opdracht om te doen. Ik zou nu ook de websites die ik vorig jaar heb gemaakt veel sneller en beter kunnen maken, omdat ik alles beter begrijp en ook meer kan. Al met al voor mij dus een geslaagd project, alleen jammer dat het niet 100% compleet is. Als ik daardoor een herkansins zou krijgen zou ik het niet eens zo erg vinden, omdat ik het dan verder af kan maken. Maar we gaan het zien hoe ver ik kom!
+
 
 **Screenshot(s):**
 
