@@ -23,7 +23,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Eindgesprek (week 7/8)
-Nou het is zover, ik kan het gaan inleveren... Ben ik tevreden? Nee, niet echt. Ik had hier veeeeel meer uit kunnen halen, maar het is me gewoon niet gelukt omdat ik er geen tijd voor had. Ik heb snel nog zoveel mogelijk in mijn website kunnen stoppen (waar ik overigens wel echt trots op ben) maar het is gewoon niet wat het had kunnen zijn. Dingen die ik nog graag had toe willen voegen zijn:
+Nou het is zover, ik kan het gaan inleveren... Ben ik tevreden? Jazeker, maar het is gewoon voor mijn gevoel nog niet af. Ik had hier veeeeel meer uit kunnen halen, maar het is me gewoon niet gelukt omdat ik er geen tijd voor had. Ik heb snel nog zoveel mogelijk in mijn website kunnen stoppen (waar ik overigens wel echt trots op ben) maar het is gewoon niet wat het had kunnen zijn. Dingen die ik nog graag had toe willen voegen zijn:
 - Hamburger menu SVG animatie, dit is niet gelukt omdat ik niet lang genoeg de tijd heb gehad om uit te zoeken hoe dit werkt.
 - Subemnu's Plus naar minnetje SVG animatie, hetzelfde als de vorige.
 - Verwijderen van alle classes, ik heb dit geprobeerd maar het blijkt zoveel werk te zijn omdat ik niet de elementen geselecteerd krijg die ik wil. Ik heb op mijn attracties.html pagina wel zo min mogelijk classes gebruikt en ben daar wel blij mee. Maar ik had graag gewild dat mijn Index er ook zo uit zou zien. Ik hoop dat ik met mijn detail pagina wel in ieder geval kan laten zien dat ik begrijp hoe het werkt en dat ik het ook wel kan.
