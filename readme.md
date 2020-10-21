@@ -41,10 +41,10 @@ Wel heb ik echt een enorme vooruitgang geboekt dankzij dit vak in mijn vaardighe
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3-1.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3-2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3-3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie-3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie-3-1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie-3-2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie-3-3.png)
 
 
 
@@ -94,8 +94,8 @@ Dingen die ik nog moet doen asap voor volgende week:
 - werken aan micro-interactie
 
 **Screenshot(s):**
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie2-1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie-2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie-2-1.png)
 
 ### Agenda voor meeting
 1. Bespreken in hoeverre je je github moet vullen
