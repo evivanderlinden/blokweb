@@ -1,10 +1,6 @@
 # Procesverslag
 **Auteur:** Evi van der Linden
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
 - Website die ik na ga maken: https://www.efteling.com/nl?utm_source=tradetracker-uk&utm_medium=affiliate&utm_campaign=efteling-uk&utm_cntent=137190
 - Hulp bij positioneren van tekst op afbeeldingen: https://css-tricks.com/design-considerations-text-images/
@@ -45,10 +41,10 @@ Wel heb ik echt een enorme vooruitgang geboekt dankzij dit vak in mijn vaardighe
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3-1.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3-2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3-3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3-1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3-2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie3-3.png)
 
 
 
@@ -98,8 +94,8 @@ Dingen die ik nog moet doen asap voor volgende week:
 - werken aan micro-interactie
 
 **Screenshot(s):**
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie2.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie2-1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/progressie2-1.png)
 
 ### Agenda voor meeting
 1. Bespreken in hoeverre je je github moet vullen
