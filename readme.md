@@ -40,12 +40,15 @@ En over het algemeen wat perfectioneer puntjes om het echt te krijgen hoe ik het
 
 Over het algemeen ben ik wel heel trots op wat ik heb neer kunnen zetten. Het is zeker nog niet klaar, maar ik heb mijn best gedaan om nog zo ver mogelijk te komen. Ik heb veel frustraties en moeilijkheden gehad met het maken van de website, in het begin ben ik 3x opnieuw begonnen, toen ik mijn classes had weggehaald moest ik mijn code 'resetten' omdat ik het niet gefixt kreeg, en nog tientallen andere hindernissen tijdens het coderen en programmeren waar ik uren over heb gedaan om eruit te komen.
 
-Wel heb ik echt een enorme vooruitgang geboekt dankzij dit vak in mijn vaardigheden op het gebied van html/css, maar ook zeker javascript en animeren met css. Ik heb veel nieuwe dingen geleerd en vond het ook een leuke opdracht om te doen. Ik zou nu ook de websites die ik vorig jaar heb gemaakt veel sneller en beter kunnen maken, omdat ik alles beter begrijp en ook meer kan. Al met al voor mij dus een geslaagd project, alleen jammer dat het niet 100% compleet is. Als ik daardoor een herkansins zou krijgen zou ik het niet eens zo erg vinden, omdat ik het dan verder af kan maken. Maar we gaan het zien hoe ver ik kom!
+Wel heb ik echt een enorme vooruitgang geboekt dankzij dit vak in mijn vaardigheden op het gebied van html/css, maar ook zeker javascript en animeren met css. Ik heb veel nieuwe dingen geleerd en vond het ook een leuke opdracht om te doen. Ik zou nu ook de websites die ik vorig jaar heb gemaakt veel sneller en beter kunnen maken, omdat ik alles beter begrijp en ook meer kan. Al met al voor mij dus een geslaagd project, alleen jammer dat het niet 100% compleet is. Als ik daardoor een herkansing zou krijgen zou ik het niet eens zo erg vinden, omdat ik het dan verder af kan maken. Maar misschien is dat helemaal niet nodig!
 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3-1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3-2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie3-3.png)
 
 
 
@@ -63,7 +66,6 @@ Ook het gebruik van Keyframes vond ik leuk en interessant, dat je daarmee makkel
 
 Naast het animeren ben ik heel trots begonnen aan het weghalen van al mijn classes, maar dit werkte helaas averechts. Ik heb denk ik te weinig gecontroleerd hoe mijn website eruit zou komen te zien als ik bepaalde dingen weg zou halen. Hierdoor was dus uiteindelijk mijn hele website verpest en stond eigenlijk niks meer hoe het zou horen te staan. Dit oplossen heeft me veel tijd gekost en was echt weer een demotiverende klap. Ik ben blij dat ik alleen classes heb gebruikt in mijn hoofdpagina en niet de detailpagina. Over het algemeen snap ik nogsteeds niet 100% het nut van geen classes hebben in je html, omdat ik nu echt het gevoel heb dat iemand anders er niks van zal begrijpen wat wat is. Zelf ben ik ook lang aan het zoeken welk element ik nou precies moet hebben in css omdat alles eigenlijk dezelfde namen heeft. Ik probeer nu met commentaar duidelijk te maken waar wat staat, maar of dit nou fijner is dan met classes werken betwijfel ik...
 
-**Screenshot(s):**
 
 ### Agenda voor meeting
 - Bespreken hoe je een animatie kan laten gebeuren - eenmalig - zodra je de pagina inlaadt.
@@ -95,8 +97,9 @@ Dingen die ik nog moet doen asap voor volgende week:
 - Github beter aanvullen en bijhouden
 - werken aan micro-interactie
 
-
 **Screenshot(s):**
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/website-progressie2-1.png)
 
 ### Agenda voor meeting
 1. Bespreken in hoeverre je je github moet vullen
