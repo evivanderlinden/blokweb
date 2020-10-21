@@ -23,8 +23,8 @@ Nou het is zover, ik kan het gaan inleveren... Ben ik tevreden? Jazeker, maar he
 - Hamburger menu SVG animatie, dit is niet gelukt omdat ik niet lang genoeg de tijd heb gehad om uit te zoeken hoe dit werkt.
 - Subemnu's Plus naar minnetje SVG animatie, hetzelfde als de vorige.
 - Verwijderen van alle classes, ik heb dit geprobeerd maar het blijkt zoveel werk te zijn omdat ik niet de elementen geselecteerd krijg die ik wil. Ik heb op mijn attracties.html pagina wel zo min mogelijk classes gebruikt en ben daar wel blij mee. Maar ik had graag gewild dat mijn Index er ook zo uit zou zien. Ik hoop dat ik met mijn detail pagina wel in ieder geval kan laten zien dat ik begrijp hoe het werkt en dat ik het ook wel kan.
--linkjes visited, hover en active fixen, ik heb ze in mijn code staan maar ik heb ze niet werkend gekregen omdat ze worden overgeschreven door een andere kleur.
--Vloeiend inladen van de attracties bij het scrollen, ik heb ik me nog niet eens in kunnen verdiepen, maar had ik er graag in willen doen.
+- linkjes visited, hover en active fixen, ik heb ze in mijn code staan maar ik heb ze niet werkend gekregen omdat ze worden overgeschreven door een andere kleur.
+- Vloeiend inladen van de attracties bij het scrollen, ik heb ik me nog niet eens in kunnen verdiepen, maar had ik er graag in willen doen.
 
 En over het algemeen wat perfectioneer puntjes om het echt te krijgen hoe ik het gewild. Wel zijn er dingen van de website die me wel gelukt zijn waar ik ook heel trots op ben. Denk bijvoorbeeld aan:
 - Het inschuif menu met alle submenuutjes. Deze werken fantastisch en het ziet er echt uit als op de Efteling website. Ik had nooit gedacht dat dit zou lukken en heeft me ook heel lang geduurd.
