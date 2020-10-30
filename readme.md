@@ -16,6 +16,8 @@
 - nth-selectors: https://css-tricks.com/useful-nth-child-recipies/
 - positioneren hamburger menu: https://dev.to/tongrhj/the-mistake-developers-make-when-coding-a-hamburger-menu-1deg
 - fixed menuhttps: //css-tricks.com/forums/topic/fixed-menu-not-scrollable/
+- rotate SVG om z'n eigen as: https://stackoverflow.com/questions/15138801/rotate-rectangle-around-its-own-center-in-svg
+- hamburger menu SVG voorbeeld: https://codepen.io/ainalem/pen/wvKOEMV
 
 
 ## Eindgesprek (week 7/8)
