@@ -3,11 +3,31 @@
   box-sizing:border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ALGEMENE CODE */
+
+
+/* CSS variabelen */
+:root {
+  --donkerrood: #B71234;
+  --bruin: #4d3928;
+  --wit: #fff;
+  --lichtgrijs: #737373;
+  --accentkleurrood: #9b0f2c;
+  --accentkleurwit: #ede5d5;
+  --donkerwitachtergrond: #fafaf7;
+}
+
+/* algemene styling */
 body{
   margin: 0 auto;
   padding: 0;
   font-family:proxima-nova;
-  background-color: #fafaf7;
+  background-color: var(--donkerwitachtergrond);
   min-height: 100%;
 }
 
@@ -19,23 +39,25 @@ h2{
 h1{
   font-family: verner;
   font-size: 1.8em;
-  color: white;
+  color: var(--wit);
 }
 
 p{
   font-family: open sans, sans-serif;
   font-size: 16px;
   line-height: 1.75;
-  color: #4d3928;
+  color: var(--bruin);
 }
 
 a{
-  text-decoration: none; /*bij alle links de decoratie weghalen*/
+  text-decoration: none;
+  transition: .2s;
 }
 
-header { /*de hele header*/
-  background:url(https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/lente/1600x600-kinderen-bij-fontein.jpg?h=450&w=1600&focuspoint=-0.6%2c-0.07&hash=D4BCC38617B0BF52873E03A3974E5138); /**/
-  background-size: cover; /*over de hele pagina*/
+/* HEADER*/
+header {
+  background: url(https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/lente/1600x600-kinderen-bij-fontein.jpg?h=450&w=1600&focuspoint=-0.6%2c-0.07&hash=D4BCC38617B0BF52873E03A3974E5138);
+  background-size: cover;
   background-position: center top;
   width: 100%;
   height: 100%;
@@ -43,27 +65,29 @@ header { /*de hele header*/
   z-index: 1;
 }
 
-header section { /*text in de header*/
+/* header tekst in afbeelding */
+header section {
   max-width: 100%;
   margin: 0 auto;
   padding: 20% 0 26%;
   background-color: rgba(0, 0, 0, .3);;
 }
 
+/* h1 tekst in afbeelding */
 header section h1 {
   text-align: center;
   line-height: 1.5em;
   text-transform: capitalize;
   padding-bottom: 20px;
   margin-bottom: 20px;
-
 }
 
+/* bekijk attracties in afbeelding */
 header section a{
   font-family: ErnestineWebW03-Bold,sans-serif;
   background-color: rgba(255,255,255,0);
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid var(--wit);
+  color: var(--wit);
   padding: 8px 20px;
   border-radius: 5px;
   font-size: 16px;
@@ -71,72 +95,137 @@ header section a{
   max-width: 70%;
   margin-top: -40px;
   margin-left: 25%;
+  transition: .2s;
 }
 
+header section a:hover{
+  background-color: var(--accentkleurrood);
+  transform: scale(1.05);
+
+}
+
+/* NAV TOP */
 nav:nth-of-type(1){
   position: fixed;
   width: 100%;
   height: 50px;
-  background-color: #fff;
+  background-color: var(--wit);
   overflow: hidden;
-  border-bottom: 1px solid #ede5d5;
+  border-bottom: 1px solid var(--accentkleurwit);
+
 }
 
 nav:nth-of-type(1) ul {
-  list-style-type: none; /*lijst stijl weghalen*/
+  list-style-type: none;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: var(--wit);
   margin-top: -5px;
   z-index: 2;
+  display: flex;
 }
 
-nav:nth-of-type(1) ul li {
-  display: inline; /* alle linkjes naast elkaar*/
-  float: left; /*linkerkant van de navbar*/
+nav:nth-of-type(1) ul li{
+  flex-direction: row;
+}
+
+nav:nth-of-type(1) ul li:nth-of-type(1) {
+  margin-left: -10%;
 }
 
 nav:nth-of-type(1) ul li a {
-  text-align: center; /*text in midden van buttons*/
+  text-align: center;
   text-decoration: none;
-  display: block; /*dikker*/
+  display: block;
   padding: 15px 10px;
 }
 
 nav:nth-of-type(1) ul li a img{
-  height: 25px;
+  height: 30px;
   width: auto;
 }
 
-/* navigatie-hamburger*/
+
+/* svg vergrootglas en winkelmandje */
+nav:nth-of-type(1) ul li:nth-of-type(3) a svg, nav:nth-of-type(1) ul li:nth-of-type(2) a svg{
+  height: 20px;
+  width: auto;
+  stroke:var(--bruin);
+  stroke-width:20;
+  stroke-miterlimit:10;
+}
+
+nav:nth-of-type(1) ul li:nth-of-type(3), nav:nth-of-type(1) ul li:nth-of-type(2){
+  margin-top: 1.2%;
+}
+
+/*SVG HAMBURGER ANIM */
+/* navigatie*/
 nav:nth-of-type(1) ul li:nth-of-type(4){
   font-family: open sans, sans-serif;
-  font-size: 18px;
-  color: #4d3928;
+  font-size: 16px;
+  color: var(--bruin);
   font-weight: bold;
-  margin-top: 3px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
+nav:nth-of-type(1) ul li:nth-of-type(4) a{
+  font-family: open sans, sans-serif;
+  color: var(--bruin);
+}
+
+/* algemeen svg*/
 #hamburger_icon{
-  height: 20px;
-  padding-top: 5px;
-  width: auto;
-  fill:none;stroke:#4E3928;stroke-width:34;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+  position: absolute;
+  width: 150px;
+  top: 5px;
+  margin-left: 5px;
+  margin-top: 3px;
+  fill: none;
+  stroke: var(--bruin);
+  stroke-width: 8;
+  stroke-miterlimit:10;
 }
 
+/* transitie paths */
+#hamburger_icon path:nth-of-type(1), #hamburger_icon path:nth-of-type(2), #hamburger_icon path:nth-of-type(3){
+  transition: .4s;
+}
 
-/*zij navigatie */
+/* rotate van bovenste path */
+#hamburger_icon path:nth-of-type(1).rotate{
+  transition: .4s;
+  transform-box: fill-box;
+  transform: rotate(45deg);
+}
+
+/* rotate van middelste path */
+#hamburger_icon path:nth-of-type(2).rotate{
+  transition: .4s;
+  transform-box: fill-box;
+  display: none;
+}
+
+/* rotate van onderste path */
+#hamburger_icon path:nth-of-type(3).rotate{
+  transition: .4s;
+  transform-box: fill-box;
+  transform: rotate(-45deg);
+}
+
+/*ZIJ NAV - UITKLAP */
 nav:nth-of-type(2) {
-  list-style-type: none; /*lijst stijl weghalen*/
+  list-style-type: none;
   margin: 0 auto;
   margin-top: -5px;
   width: 100%;
   height: 100%;
   right: -47em;
   position: fixed;
-  z-index: 999; /*top layer */
+  z-index: 999;
   top: 55px;
-  background-color: #fff;
-  max-height: calc(100% - 50px);
+  background-color: var(--wit);
+  max-height: calc(100% - 50px); /*de navbar is 50 px*/
   overflow-y: auto;
   transition: 0.5s;
   text-align:center;
@@ -151,7 +240,7 @@ nav:nth-of-type(2) ul{
   padding-left: 0;
   margin: 0;
   list-style-type: none;
-  border-top: 1px solid #ede5d5;
+  border-top: 1px solid var(--accentkleurwit);
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
@@ -163,7 +252,7 @@ footer article ul li{
   position: relative;
   line-height: 48px;
   display: block;
-  border-bottom: 1px solid #ede5d5;
+  border-bottom: 1px solid var(--accentkleurwit);
 }
 
 nav:nth-of-type(2) ul li a, nav:nth-of-type(2) ul li span,
@@ -172,28 +261,28 @@ footer article ul li a, footer article ul li span{
   text-decoration: none;
   font-size: 0.9em;
   font-weight: 600;
-  color: #4d3928;
+  color: var(--bruin);
   transition: 0.3s;
   font-family: open sans, sans-serif;
 }
 
 nav:nth-of-type(2) ul li a:hover,
 footer article ul li a:hover{
-  color: #f1f1f1;
+  color: var(--donkerwitachtergrond);
 }
 
 nav:nth-of-type(2) h2 {
   display: block;
   font-size: 1.2em;
-  color: #4d3928;
+  color: var(--bruin);
   left: 0;
   margin-top: 10%;
 }
 
 .span_reserveren{
   padding: 20px;
-  background-color: #fafaf7;
-  border-bottom: 1px solid #ede5d5;
+  background-color: var(--donkerwitachtergrond);
+  border-bottom: 1px solid var(--accentkleurwit);
 }
 
 
@@ -244,118 +333,119 @@ header nav:nth-of-type(1) ul li:nth-child(1){
   margin-right: 30px;
 }
 
-.buttons-on-header{
+/* -------------------------------------------------------------------------------- */
+/* INDEX.HTML */
+
+/* BUTTONS OP HEADER */
+/* algemeen */
+.index-main article:nth-of-type(1){
   max-width: 90%;
   margin-top: -40px;
   margin-left: 5%;
 }
 
-.reserveren{
-  font-size: 1em;
-  font-family: ErnestineWebW03-Bold,sans-serif;
-  text-align: center;
-  display: block;
-  background-color: #fff;
-  border-bottom-width: 0;
-  border-color: #ede5d5;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-style: solid;
+/* reserveren en tickets kopen*/
+.index-main article:nth-of-type(1) a:nth-of-type(1){
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-top-width: 1px;
-  color: #b71234;
-  padding: 15px 30px;
-
+  border-bottom-width: 0;
 }
 
-.slapen{
-  font-family: ErnestineWebW03-Bold,sans-serif;
+/* blijf slapen */
+.index-main article:nth-of-type(1) a:nth-of-type(2){
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+/* beide buttons */
+.index-main article:nth-of-type(1) a:nth-of-type(1),
+.index-main article:nth-of-type(1) a:nth-of-type(2) {
   font-size: 1em;
+  font-family: ErnestineWebW03-Bold,sans-serif;
   text-align: center;
   display: block;
-  background-color: #fff;
-  border-color: #ede5d5;
+  background-color: var(--wit);
+  border-color: var(--accentkleurwit);
   border-left-width: 1px;
   border-right-width: 1px;
   border-style: solid;
   border-top-width: 1px;
-  color: #b71234;
+  color: var(--donkerrood);
   padding: 15px 30px;
-
 }
 
-.openingstijd{
-  border:solid 1px #ede5d5;
+/* OPENINGSTIJD */
+/* algemeen */
+.index-main section:nth-of-type(1){
+  border:solid 1px var(--accentkleurwit);
   border-radius: 5px;
   max-width: 90%;
   padding: 5px 0 15px 20px;
   margin-top: 10%;
   margin-right: 5%;
   margin-left: 5%;
-  background-color: #fff
+  background-color: var(--wit);
 }
 
-.openingstijd h2{
-  color: #4d3928;
+/* h2 */
+.index-main section:nth-of-type(1) h2{
+  color: var(--bruin);
   margin-bottom: -1px;
 }
 
-.openingstijd a{
+/* a */
+.index-main section:nth-of-type(1) a{
   text-decoration: underline;
   font-family: open sans, sans-serif;
   font-size: 1em;
-  color: #4d3928;
+  color: var(--bruin);
   padding-top: 10px;
 }
 
-
-.allerkleinste, .familie, .waaghalzen{
+/* ALLERKLEINSTEN, FAMILIE, WAAGHALZEN */
+/* algemeen */
+.index-main section:nth-of-type(2), .index-main section:nth-of-type(3), .index-main section:nth-of-type(4){
   max-width: 90%;
-  border:solid 1px #ede5d5;
+  border:solid 1px var(--accentkleurwit);
   border-radius: 5px;
   padding: 5px 0 15px 20px;
-  background-color: #fff;
+  background-color: var(--wit);
   margin-top: 10%;
   margin-right: 5%;
   margin-left: 5%;
 }
 
-.allerkleinste, .familie, .waaghalzen section h2{
-  color: #b71234;
+/* h2 */
+.index-main section:nth-of-type(2) div h2, .index-main section:nth-of-type(3) div h2, .index-main section:nth-of-type(4) div h2{
+  color: var(--donkerrood);
   margin-bottom: -12px;
 }
 
-.allerkleinste-tekst, .familie-tekst, .waaghalzen-tekst{
+/* div */
+.index-main section:nth-of-type(2) div, .index-main section:nth-of-type(3) div, .index-main section:nth-of-type(4) div{
   margin-right: 25px;
 }
 
-.img-allerkleinste img, .img-familie img, .img-waaghalzen img, .max-en-moritz img{
+/* image */
+.index-main section:nth-of-type(2) img, .index-main section:nth-of-type(3) img, .index-main section:nth-of-type(4) img{
   max-width: 150%;
   height: auto;
   padding-right: 10%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   margin-left: -5%;
-  /*margin-left: 10%;
-  /*margin-bottom: -12%;
-  /*margin-top: 10%;*/
 }
 
-.allerkleinste-button, .familie-button, .waaghalzen-button{
+/* buttons */
+.index-main section:nth-of-type(2) a, .index-main section:nth-of-type(3) a, .index-main section:nth-of-type(4) a{
   border-radius: 5px;
   margin-top: 15%;
   margin-bottom: 4%;
-}
-
-.allerkleinste-button a, .familie-button a, .waaghalzen-button a{
   font-family: ErnestineWebW03-Bold,sans-serif;
-  background-color: #fff;
+  background-color: var(--wit);
   border-radius: 5px;
-  border: 1px solid #ede5d5;
-  color: #b71234;
+  border: 1px solid var(--accentkleurwit);
+  color: var(--donkerrood);
   font-size: 16px;
   line-height: 1.5;
   padding-bottom: 8px;
@@ -363,78 +453,39 @@ header nav:nth-of-type(1) ul li:nth-child(1){
   padding: 10px 15px 8px 15px;
 }
 
-.alle-attracties{
+/* alle attracties button */
+#b_attracties{
   margin: 15% 0 15% 15%;
 }
 
-.alle-attracties a, .plattegrond a, .attracties-main button, nav:nth-of-type(2) ul:nth-of-type(1) li a span, .max-en-moritz a{
-  color: #fff!important;
+/* OPMAAK BUTTONS ROOD (call-to-action) */
+#b_attracties a, .index-main section:nth-of-type(5) a, .index-main section:nth-of-type(6) a, .attracties-main button, nav:nth-of-type(2) ul:nth-of-type(1) li a span, .max-en-moritz a{
+  color: var(--wit)!important;
   position: relative;
-  background-color: #b71234;
+  background-color: var(--donkerrood);
   border-radius: 5px;
-  border: 1px solid #ede5d5;
-  color: #b71234;
+  color: var(--donkerrood);
   font-family: ErnestineWeb-Bold,sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  padding-bottom: 8px;
-  padding: 10px 40px 8px 40px;
+  padding: 14px 40px 12px 40px;
   z-index: 1;
-  margin: 0;
 }
 
-
-.alle-attracties a::before, .plattegrond a::before, .attracties-main button::before, nav:nth-of-type(2) ul:nth-of-type(1) li a span::before{
+/* rode lijn in rode button (before state) */
+.alle-attracties a::before, .index-main section:nth-of-type(6) a::before, .attracties-main button::before, nav:nth-of-type(2) ul:nth-of-type(1) li a span::before{
   font-family: ErnestineWeb-Bold,sans-serif!important;
-  border-color: #9b0f2c;
+  border-color: var(--accentkleurrood);
   border-radius: 5px;
-  border: 2px solid #9b0f2c;
-  bottom: 3px;
+  border: 2px solid var(--accentkleurrood);
   content: '';
   display: block;
-  left: 3px;
+  left: 3px;   bottom: 3px;   top: 3px;  right: 3px;
   position: absolute;
-  right: 3px;
-  top: 3px;
 }
 
-.plattegrond{
-  position: relative;
-  text-align: center;
-  background: url(https://i0.wp.com/eftelingsestraat.nl/wp-content/uploads/2018/04/efteling-plattegrond-header.jpg?fit=1025%2C587&ssl=1);
-  background-size: cover;
-  background-color: rgba(0, 0, 0, .3);
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.plattegrond h1{
-  padding: 20% 0 20% 0;
-  line-height: 1.5em;
-  text-align: center;
-}
-
-.plattegrond {
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
-    url(https://i0.wp.com/eftelingsestraat.nl/wp-content/uploads/2018/04/efteling-plattegrond-header.jpg?fit=1025%2C587&ssl=1);
-  background-size: cover;
-  height: 70vh;
-  margin-bottom: 20%;
-  z-index: -1;
-}
-
-.plattegrond div {
-  position: absolute;
-  left: 10%;
-  right: 10%;
-  top:5%;
-  color: white;
-  text-align: center;
-}
-
-.max-en-moritz{
+/* MAX EN MORITZ */
+.index-main section:nth-of-type(5){
   margin-bottom: 20%;
   margin-top: 10%;
   margin-right: 5%;
@@ -444,41 +495,72 @@ header nav:nth-of-type(1) ul li:nth-child(1){
   display: block;
 }
 
-.max-en-moritz hr{
-  background-color: #b71234;
+.index-main section:nth-of-type(5) hr{
+  background-color: var(--donkerrood);
   width: 100px;
   margin-top: 15px;
   display: inline-block;
   border-top-width: 2px;
   position: relative;
-  border: 2px solid #ede5d5;
+  border: 2px solid var(--accentkleurwit);
   border-bottom-width: 0;
   height: 0;
 }
 
-.max-en-moritz h2{
+.index-main section:nth-of-type(5) h2{
   font-size: 20px;
-  color: #b71234;
+  color: var(--donkerrood);
   margin-bottom: -0px;
 }
 
-.max-en-moritz a{
+.index-main section:nth-of-type(5) a{
   margin-top: 10%;
 }
 
-.max-en-moritz p{
+.index-main section:nth-of-type(5) p{
   padding-right: 5%;
   margin-bottom: 8%;
 }
 
-.max-en-moritz img{
+.index-main section:nth-of-type(5) img{
   max-width: 100%;
   width: 440px;
   height: auto;
   margin-left: 0;
 }
 
-/* attracties */
+/* PLATTEGROND */
+/* algemeen */
+.index-main section:nth-of-type(6){
+  position: relative;
+  text-align: center;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+    url(https://i0.wp.com/eftelingsestraat.nl/wp-content/uploads/2018/04/efteling-plattegrond-header.jpg?fit=1025%2C587&ssl=1);
+  background-size: cover;
+  height: 70vh;
+  margin-bottom: 20%;
+  z-index: -1;
+}
+
+/* h2 */
+.index-main section:nth-of-type(6) h2{
+  padding: 20% 0 20% 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5em;
+  text-align: center;
+  font-family: verner;
+  font-size: 1.9em;
+  color: var(--wit);
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ATTRACTIES.HTML */
+
 .attracties-main p{
   font-family: ErnestineWebW03-Bold,sans-serif;
 }
@@ -492,7 +574,7 @@ header nav:nth-of-type(1) ul li:nth-child(1){
 }
 
 .attracties-main section:nth-of-type(1) h2{
-  color: #b71234;
+  color: var(--donkerrood);
   font-size: 1.2em;
 }
 
@@ -502,6 +584,7 @@ header nav:nth-of-type(1) ul li:nth-child(1){
 
 }
 
+/* Afbeeldingen attracties */
 .attracties-main section:nth-of-type(2){
   background: url(https://www.efteling.com/nl/-/media/images/nieuw-park/park/1024x576-fata-morgana-bootrit-2.jpg);
 }
@@ -543,13 +626,13 @@ header nav:nth-of-type(1) ul li:nth-child(1){
 }
 
 .attracties-main button{
-  margin-left: 30%;
+  margin-left: 27%;
   margin-top: 2%;
-  margin-bottom: 5%;
   transition: transform .2s;
 }
 
-.attracties-main button:hover{
+/* hover effect button */
+.attracties-main button:hover, header section a:hover{
   transform: scale(1.05);
 }
 
@@ -568,12 +651,13 @@ header nav:nth-of-type(1) ul li:nth-child(1){
   margin-right: 5%;
   margin-bottom: 5%;
   border-radius: 6px;
-  color: #fff;
+  color: var(--wit);
   z-index: -1;
   transition: transform .2s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* hover effect attracties */
 .attracties-main section:nth-of-type(2):hover, .attracties-main section:nth-of-type(3):hover, .attracties-main section:nth-of-type(4):hover, .attracties-main section:nth-of-type(5):hover,
 .attracties-main section:nth-of-type(6):hover, .attracties-main div section:nth-of-type(1):hover, .attracties-main div section:nth-of-type(2):hover, .attracties-main div section:nth-of-type(3):hover, .attracties-main div section:nth-of-type(4):hover,
 .attracties-main div section:nth-of-type(5):hover{
@@ -584,20 +668,23 @@ header nav:nth-of-type(1) ul li:nth-child(1){
 .attracties-main section:nth-of-type(2) p, .attracties-main section:nth-of-type(3) p,.attracties-main section:nth-of-type(4) p, .attracties-main section:nth-of-type(5) p,
 .attracties-main section:nth-of-type(6) p, .attracties-main div section:nth-of-type(1) p, .attracties-main div section:nth-of-type(2) p, .attracties-main div section:nth-of-type(3) p, .attracties-main div section:nth-of-type(4) p,
 .attracties-main div section:nth-of-type(5) p{
-  color: #fff;
+  color: var(--wit);
   text-transform: uppercase;
   text-align: center;
   padding-top: 95%;
   text-shadow: 2px 1px 2px rgba(150, 150, 150, 1);
 }
 
-.attracties-main section:nth-of-type(2) h1, .attracties-main section:nth-of-type(3) h1, .attracties-main section:nth-of-type(4) h1, .attracties-main section:nth-of-type(5) h1,
-.attracties-main section:nth-of-type(6) h1, .attracties-main div section:nth-of-type(1) h1, .attracties-main div section:nth-of-type(2) h1, .attracties-main div section:nth-of-type(3) h1, .attracties-main div section:nth-of-type(4) h1,
-.attracties-main div section:nth-of-type(5) h1{
+.attracties-main section:nth-of-type(2) h2, .attracties-main section:nth-of-type(3) h2, .attracties-main section:nth-of-type(4) h2, .attracties-main section:nth-of-type(5) h2,
+.attracties-main section:nth-of-type(6) h2, .attracties-main div section:nth-of-type(1) h2, .attracties-main div section:nth-of-type(2) h2, .attracties-main div section:nth-of-type(3) h2, .attracties-main div section:nth-of-type(4) h2,
+.attracties-main div section:nth-of-type(5) h2{
   font-size: 2em;
   text-align: center;
   margin-top: -15%;
   text-shadow: 2px 1px 2px rgba(150, 150, 150, 1);
+  font-family: verner;
+  font-size: 1.8em;
+  color: white;
 }
 
 /*footer*/
@@ -605,15 +692,15 @@ footer{
   background-color: white;
   padding-top: 10%;
   margin-top: 7%;
-  border-top: 1px solid #ede5d5;
+  border-top: 1px solid var(--accentkleurwit);
 }
 
 footer section:nth-of-type(1){
-  color: #737373;
+  color: var(--lichtgrijs);
   padding-left: 10%;
   padding-bottom: 3%;
   margin-top: -7%;
-  border-bottom: 1px solid #ede5d5;
+  border-bottom: 1px solid var(--accentkleurwit);
   line-height: 20px;
 }
 
@@ -644,6 +731,7 @@ ul{
   border: 0;
 }
 
+
 article:nth-of-type(2){
   display: flex;
   margin-left: 5%;
@@ -663,8 +751,10 @@ article:nth-of-type(2) p{
   animation-duration: 5000ms; /*draaisnelheid*/
   animation-iteration-count: infinite; /*oneindig rondraaien*/
   animation-timing-function: linear; /*lineare beweging van animatie*/
-  fill: #B71234;
+  fill: var(--donkerrood);
 }
+
+/* stoppen van animatie */
 .attracties-main section svg:nth-of-type(1).hidden{
   animation-duration: 0ms; /*draaisnelheid*/
 }
@@ -691,37 +781,6 @@ article:nth-of-type(2) p{
   }
 }
 
-/* uitklap menu SVG animaties - WERKT NIET/ TIJDNOOD */
-footer article ul li svg, nav:nth-of-type(2) ul:nth-of-type(2) li svg{
-}
-
-footer article ul li svg.open, nav:nth-of-type(2) ul:nth-of-type(2) li svg.open{
-  animation-name: open; /*relatie keyframe*/
-  animation-duration: 1000ms; /*draaisnelheid*/
-  animation-iteration-count: 1 /*oneindig rondraaien*/
-  animation-timing-function: ease-in-out; /*lineare beweging van animatie*/
-  animation-name: open;
-}
-
-@keyframes open{
-  0% { /*begin animatie*/
-        transform: rotate(0deg);
-    }
-  100% { /*einde animatie*/
-      transform: rotate(90deg);
-  }
-}
-
-@keyframes close{
-  0% { /*begin animatie*/
-        transform: rotate(90deg);
-    }
-  100% { /*einde animatie*/
-      transform: rotate(0deg);
-  }
-}
-
-
 /* scroll-to-top button */
 .scroll-to-top{
   position: absolute;
@@ -735,15 +794,15 @@ footer article ul li svg.open, nav:nth-of-type(2) ul:nth-of-type(2) li svg.open{
   width: 10%;
   height: auto;
   font-family: ErnestineWebW03-Bold,sans-serif;
-  color: #fff;
+  color: var(--wit);
   padding: 8px 25px 8px 14px;;
   border-radius: 100%;
   font-size: 16px;
   line-height: 1.5;
   max-width: 70%;
   margin-top: -40px;
-  background-color: #b71234;;
-  border: 1px solid #b71234;
+  background-color: var(--donkerrood);
+  border: 1px solid var(--donkerrood);
   transition: 4s;
 }
 
@@ -752,19 +811,21 @@ button, a{
   font-family: ErnestineWebW03-Bold,sans-serif;
 }
 
-.alle-attracties a, .plattegrond a, .attracties-main button, nav:nth-of-type(2) ul:nth-of-type(1) li a span, .max-en-moritz a{
+.alle-attracties a,.index-main section:nth-of-type(5) a, .index-main section:nth-of-type(6) a, .attracties-main button, nav:nth-of-type(2) ul:nth-of-type(1) li a span, #b_attracties a{
   font-family:ErnestineWebW03-Bold,sans-serif;
 }
 
-.active{
-  color: #B71234;
+
+#active, #het_park_btn span{
+  color: var(--donkerrood);
 }
 
-.visited{
-  color: #737373;
+#visited, #visited1{
+  color: var(--lichtgrijs);
 }
 
 #het_park_menu_footer, #over_efteling_menu, #meer_efteling_menu_footer, #nieuwsbrief_menu,
 #het_park_menu, #all_seizoen_menu, #meer_efteling_menu {
   display: none;
 }
+
