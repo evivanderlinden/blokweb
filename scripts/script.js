@@ -9,23 +9,48 @@ function scrollToTop() {
 
 //hamburger menu uitklappen
 //code en hulp van CLifton van Henten
+
 (function() {
+  //variabele hamburger
 
-  let hamburger = {
+  var hamburger = {
+    //begin variabelen
     nav: document.querySelector('nav:nth-of-type(2)'),
-    navClick: document.querySelector('nav ul li:nth-of-type(4) a svg'),
+    navClick: document.querySelector('nav ul li:nth-of-type(4) a'),
+    //animatie hamburger menu
+    menu: document.getElementById('hamburger_icon'),
+    stroke1: document.querySelector('#hamburger_icon path:nth-of-type(1)'),
+    stroke2: document.querySelector('#hamburger_icon path:nth-of-type(2)'),
+    stroke3: document.querySelector('#hamburger_icon path:nth-of-type(3)'),
 
+    //event listener voor navigatie
     initialize() {
       this.navClick.addEventListener('click', () => { this.toggle(); });
     },
 
+    //toggle van classes in css
     toggle() {
       this.nav.classList.toggle('expanded');
+      this.stroke1.classList.toggle('rotate');
+      this.stroke2.classList.toggle('rotate');
+      this.stroke3.classList.toggle('rotate');
     },
+    //einde variabelen
   };
 
   hamburger.initialize();
 }());
+
+//vorbeeld W3 Schools
+
+// var person = {
+//   firstName  : "John",
+//   lastName   : "Doe",
+//   id     : 5566,
+//   function() {
+//     return this.firstName;
+//   }
+// };
 
 // //Footer uitklap menu
 var hetPark2 = document.getElementById("het_park_menu_footer");
