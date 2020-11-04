@@ -6,30 +6,52 @@
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.jpg">
   </head>
   <body>
     <header>
       <!-- NAVIGATIE BOVENAAN -->
       <nav>
   			<ul>
-  				<li class="logo"><a href="index.html"><img src="images/efteling-logo.png" alt="logo"> </a> <!-- Logo --></li>
-  				<li><a href="basket" class="header-nav-basket"><img src="images/supermarket.png" alt="supermarket"></a></li>
-  				<li><a href="search"><img src="images/search.png" alt="search"></a></li>
+  				<li><a href="index.html"><img src="images/efteling-logo.png" alt="logo"> </a> <!-- Logo --></li>
+  				<li><a href="basket">
+  					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  						 viewBox="0 0 456.272 456.272" style="enable-background:new 0 0 456.272 456.272;" xml:space="preserve">
+  					<path d="M441.272,184.656h-88.349L288.61,29.703c-3.176-7.651-11.955-11.277-19.604-8.104c-7.651,3.176-11.28,11.953-8.104,19.604
+  						l59.54,143.453H135.831l59.54-143.453c3.176-7.651-0.453-16.429-8.104-19.604c-7.648-3.175-16.429,0.453-19.604,8.104
+  						L103.35,184.656H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h9.02l29.408,160.833c6.393,34.96,36.828,60.334,72.367,60.334h204.684
+  						c35.54,0,65.974-25.374,72.366-60.334l29.408-160.833h9.02c8.284,0,15-6.716,15-15S449.556,184.656,441.272,184.656z
+  						 M373.333,370.092c-3.786,20.704-21.809,35.73-42.855,35.73H125.794c-21.046,0-39.07-15.026-42.856-35.73L54.646,215.365h346.979
+  						L373.333,370.092z"/> </svg>
+  				  </a></li>
+
+  				<li><a href="search">
+  					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  					 viewBox="0 0 542 536" style="enable-background:new 0 0 542 536;" xml:space="preserve">
+  					 	<path class="st0" d="M245.5,13C121.2,13,20,114.2,20,238.5c0,124.3,101.2,225.5,225.5,225.5c124.3,0,225.5-101.1,225.5-225.5
+  				 			C470.9,114.2,369.8,13,245.5,13z M245.5,422.3c-101.4,0-183.8-82.5-183.8-183.8S144.1,54.6,245.5,54.6s183.8,82.5,183.8,183.8
+  				 			S346.8,422.3,245.5,422.3z"/>
+  						<path class="st0" d="M525.9,489.5L406.6,370.1c-8.1-8.1-21.3-8.1-29.4,0c-8.1,8.1-8.1,21.3,0,29.4l119.3,119.3
+  							c4.1,4.1,9.4,6.1,14.7,6.1c5.3,0,10.6-2,14.7-6.1C534,510.8,534,497.6,525.9,489.5z"/>
+  					</svg>
+  				</a></li>
+
   				<li><a href="#">MENU
-            <svg id="hamburger_icon"version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 viewBox="0 0 415.3 281.8" style="enable-background:new 0 0 415.3 281.8;" xml:space="preserve">
-            <line class="st0" x1="17.4" y1="140.9" x2="397.8" y2="140.9"/>
-            <line class="st0" x1="17.4" y1="17.6" x2="397.8" y2="17.6"/>
-            <line class="st0" x1="17.4" y1="264.2" x2="397.8" y2="264.2"/>
-          </svg> </a></li>
+  					<svg id="hamburger_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  					 viewBox="0 0 415.3 281.8" style="enable-background:new 0 0 415.3 281.8;" xml:space="preserve">
+  						 <path d="M 20,30 H 80" />
+  	        	 <path d="M 20,50 H 80" />
+  	        	 <path d="M 20,70 H 80" />
+  					</svg>
+  				</a></li>
   			</ul>
-      </nav>
+  		</nav>
+
 
       <!-- UITKLAP NAVIGATIE -->
       <nav>
         <ul>
-          <!-- ook hier werkte zonder class niet -->
-          <li class="span_reserveren"><a><span>Reserveren</span></a></li>
+          <li class="span_reserveren"><a><span>Reserveren</span></a></li>     <!-- ook hier werkte zonder class niet -->
         </ul>
 
         <!-- ONTDEK HET PARK -->
@@ -42,10 +64,10 @@
             </svg>
 
             <ul id="het_park_menu">
-              <li><a class="active">Alle attracties</a></li>
+              <li><a id="active">Alle attracties</a></li>
               <li><a>Parkshows en entertainment</a></li>
-              <li><a class="visited">Eten en drinken</a></li>
-              <li><a class="visited">Souvenirs</a></li>
+              <li><a id="visited">Eten en drinken</a></li>
+              <li><a id="visited1">Souvenirs</a></li>
               <li><a>Plattegrond</a></li>
               <li><a>Nieuw in de Efteling</a></li>
               <li><a>Bezoekers met een beperking</a></li>
@@ -138,59 +160,61 @@
     <!-- BEGIN ATTRACTIE LIJST -->
     <section>
       <p>overdekte attractie</p>
-      <h1>Fata Morgana</h1>
+      <h2>Fata Morgana</h2>
     </section>
 
     <section>
       <p>4d filmavontuur</p>
-      <h1>Fabula</h1>
+      <h2>Fabula</h2>
     </section>
 
     <section>
       <p>overdekte familie attractie</p>
-      <h1>Symbolica</h1>
+      <h2>Symbolica</h2>
     </section>
 
     <section>
       <p>houten achtbaan</p>
-      <h1>Joris en De Draak</h1>
+      <h2>Joris en De Draak</h2>
     </section>
 
     <section>
       <p>dive coaster</p>
-      <h1>Baron 1898</h1>
+      <h2>Baron 1898</h2>
     </section>
 
     <!-- load more button -->
     <button type="button" name="button">Load More</button>
 
+    <!-- attracties na load more -->
     <div id="attracties-hidden">
       <section>
         <p>overdekte attractie</p>
-        <h1>Droomvlucht</h1>
+        <h2>Droomvlucht</h2>
       </section>
 
       <section>
         <p>attractie</p>
-        <h1>Sprookjesbos</h1>
+        <h2>Sprookjesbos</h2>
       </section>
 
       <section>
         <p>waterachtbaan</p>
-        <h1>Vliegende Hollander</h1>
+        <h2>Vliegende Hollander</h2>
       </section>
 
       <section>
         <p>wildwaterbaan</p>
-        <h1>Pirana</h1>
+        <h2>Pirana</h2>
       </section>
 
       <section>
         <p>stalen achtbaan</p>
-        <h1>Python</h1>
+        <h2>Python</h2>
       </section>
     </div>
 
+    <!-- SCROLL TO TOP -->
     <!-- class is makkelijk omdat deze wordt gebruikt op beide pagina's -->
     <section class="scroll-to-top">
   		<button type="button">&uarr;</button>
