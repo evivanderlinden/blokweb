@@ -5,15 +5,19 @@ function scrollToTop() {
     document.body.scrollIntoView({behavior: 'smooth', block: 'start'});
 }
 
-
 //hamburger menu uitklappen
 //code en hulp van CLifton van Henten
 (function() {
 
-  let hamburger = {
+  var hamburger = {
     nav: document.querySelector('nav:nth-of-type(2)'),
     navClick: document.querySelector('nav ul li:nth-of-type(4) a svg'),
     anim: document.querySelector('.attracties-main section svg:nth-of-type(1)'),
+    //animatie hamburger menu
+    menu: document.getElementById('hamburger_icon'),
+    stroke1: document.querySelector('#hamburger_icon path:nth-of-type(1)'),
+    stroke2: document.querySelector('#hamburger_icon path:nth-of-type(2)'),
+    stroke3: document.querySelector('#hamburger_icon path:nth-of-type(3)'),
 
     initialize() {
       this.navClick.addEventListener('click', () => { this.toggle(); });
@@ -22,6 +26,9 @@ function scrollToTop() {
     toggle() {
       this.nav.classList.toggle('expanded');
       this.anim.classList.toggle('hidden');
+      this.stroke1.classList.toggle('rotate');
+      this.stroke2.classList.toggle('rotate');
+      this.stroke3.classList.toggle('rotate');
     },
   };
 
