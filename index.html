@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Efteling</title>
 	<link href="styles/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.jpg"> <!--favicon-->
 </head>
 
 <body id="top">
@@ -15,15 +16,36 @@
 		<nav>
 			<ul>
 				<li><a href="index.html"><img src="images/efteling-logo.png" alt="logo"> </a> <!-- Logo --></li>
-				<li><a href="basket" class="header-nav-basket"><img src="images/supermarket.png" alt="supermarket"></a></li>
-				<li><a href="search"><img src="images/search.png" alt="search"></a></li>
+				<li><a href="basket">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 456.272 456.272" style="enable-background:new 0 0 456.272 456.272;" xml:space="preserve">
+					<path d="M441.272,184.656h-88.349L288.61,29.703c-3.176-7.651-11.955-11.277-19.604-8.104c-7.651,3.176-11.28,11.953-8.104,19.604
+						l59.54,143.453H135.831l59.54-143.453c3.176-7.651-0.453-16.429-8.104-19.604c-7.648-3.175-16.429,0.453-19.604,8.104
+						L103.35,184.656H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h9.02l29.408,160.833c6.393,34.96,36.828,60.334,72.367,60.334h204.684
+						c35.54,0,65.974-25.374,72.366-60.334l29.408-160.833h9.02c8.284,0,15-6.716,15-15S449.556,184.656,441.272,184.656z
+						 M373.333,370.092c-3.786,20.704-21.809,35.73-42.855,35.73H125.794c-21.046,0-39.07-15.026-42.856-35.73L54.646,215.365h346.979
+						L373.333,370.092z"/>
+				</a></li>
+
+				<li><a href="search">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 542 536" style="enable-background:new 0 0 542 536;" xml:space="preserve">
+					 	<path class="st0" d="M245.5,13C121.2,13,20,114.2,20,238.5c0,124.3,101.2,225.5,225.5,225.5c124.3,0,225.5-101.1,225.5-225.5
+				 			C470.9,114.2,369.8,13,245.5,13z M245.5,422.3c-101.4,0-183.8-82.5-183.8-183.8S144.1,54.6,245.5,54.6s183.8,82.5,183.8,183.8
+				 			S346.8,422.3,245.5,422.3z"/>
+						<path class="st0" d="M525.9,489.5L406.6,370.1c-8.1-8.1-21.3-8.1-29.4,0c-8.1,8.1-8.1,21.3,0,29.4l119.3,119.3
+							c4.1,4.1,9.4,6.1,14.7,6.1c5.3,0,10.6-2,14.7-6.1C534,510.8,534,497.6,525.9,489.5z"/>
+					</svg>
+				</a></li>
+
 				<li><a href="#">MENU
-					<svg id="hamburger_icon"version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					<svg id="hamburger_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					 viewBox="0 0 415.3 281.8" style="enable-background:new 0 0 415.3 281.8;" xml:space="preserve">
-					<line class="st0" x1="17.4" y1="140.9" x2="397.8" y2="140.9"/>
-					<line class="st0" x1="17.4" y1="17.6" x2="397.8" y2="17.6"/>
-					<line class="st0" x1="17.4" y1="264.2" x2="397.8" y2="264.2"/>
-				</svg> </a></li>
+						 <path d="M 20,30 H 80" />
+	        	 <path d="M 20,50 H 80" />
+	        	 <path d="M 20,70 H 80" />
+					</svg>
+				</a></li>
 			</ul>
 		</nav>
 
@@ -44,7 +66,7 @@
 					</svg>
 
 					<ul id="het_park_menu">
-						<li><a class="active">Alle attracties</a></li>
+						<li><a>Alle attracties</a></li>
 						<li><a>Parkshows en entertainment</a></li>
 						<li><a class="visited">Eten en drinken</a></li>
 						<li><a class="visited">Souvenirs</a></li>
@@ -108,19 +130,24 @@
 	</header>
 
 
-<!-- MAIN -->
-<main class="index-main">
-	<section class="buttons-on-header">
-		<a href="attracties.html" class="reserveren">Reserveren & tickets kopen</a>
-		<a href="attracties.html" class="slapen">Blijf Slapen</a>
-	</section>
+	<!-- MAIN -->
+	<main class="index-main">
 
-	<section class="openingstijd">
-		<h2>Vandaag 10.00 - 18.00</h2>
-		<a href="index.html">Bekijk alle openingstijden</a>
-	</section>
+		<!-- buttons op de header -->
+		<article>
+			<a href="attracties.html">Reserveren & tickets kopen</a>
+			<a href="attracties.html">Blijf Slapen</a>
+		</article>
 
-<!--ALLERKLEINSTEN-->
+		<!-- openingstijden -->
+		<section>
+			<h2>Vandaag 10.00 - 18.00</h2>
+			<a href="index.html">Bekijk alle openingstijden</a>
+		</section>
+
+	<!--
+	STUKJE OUDE CODE
+
 	<section class="allerkleinste">
 		<section class="img-allerkleinste">
 			<img src="images/allerkleinsten.jpg" alt="allerkleinsten">
@@ -133,146 +160,150 @@
 			<a href="attracties.html">Attracties voor kleintjes</a>
 		</section>
 	</section>
+	-->
 
-<!--FAMILIE-->
-		<section class="familie">
-			<section class="img-familie">
-				<img src="images/familie.jpg" alt="familie">
-			</section>
-			<section class="familie-tekst">
-				<h2>De hele familie</h2>
-				<p>Loop met z’n allen door het Sprookjesbos of ontdek Symbolica, een betoverend paleis waar de fantasie tot leven komt. De Efteling is het leukste familie-uitje ooit!</p>
-			</section>
-			<section class="familie-button">
-				<a href="attracties.html">Alle familie-attracties</a>
-			</section>
-	</section>
-
-<!--WAAGHALZEN-->
-	<section class="waaghalzen">
-			<section class="img-waaghalzen">
-				<img src="images/waaghalzen.jpg" alt="waaghalzen">
-			</section>
-			<section class="waaghalzen-tekst">
-				<h2>Waaghalzen</h2>
-				<p>Durf jij over de kop te gaan of het diepe in te duiken? Ook voor waaghalzen heeft de Efteling een groot assortiment attracties.</p>
-			</section>
-			<section class="waaghalzen-button">
-				<a href="attracties.html">Attracties voor waaghalzen</a>
-			</section>
+		<!--ALLERKLEINSTEN-->
+		<section>
+			<img src="images/allerkleinsten.jpg" alt="allerkleinsten">
+				<div>
+					<h2>De allerkleinsten</h2>
+					<p>Rondjes maken in de draaimolen of op schoot in een van de vele attracties. Ook de allerkleinste vermaken zich in de Efteling.</p>
+				</div>
+			<a href="attracties.html">Attracties voor kleintjes</a>
 		</section>
-	</section>
 
-	<section class="alle-attracties">
-		<a href="attracties.html">Bekijk alle attracties</a>
-	</section>
+		<!--FAMILIE-->
+		<section>
+			<img src="images/familie.jpg" alt="familie">
+				<div>
+					<h2>De hele familie</h2>
+					<p>Loop met z’n allen door het Sprookjesbos of ontdek Symbolica, een betoverend paleis waar de fantasie tot leven komt. De Efteling is het leukste familie-uitje ooit!</p>
+				</div>
+			<a href="attracties.html">Alle familie-attracties</a>
+		</section>
 
-	<section class="max-en-moritz">
-		<img src="images/max-en-moritz.jpg" alt="maxenmoritz">
-		<h2>Max &amp; Moritz nu geopend!</h2>
-		<hr>
-		<p>In de dubbele achtbaan Max & Moritz beleef je met de hele familie een spannende, doldwaze rit vol streken.
-			Ontsnap samen met Max en Moritz uit de koekoeksklokkenwerkplaats in een van hun zeepkisten.
-			Welke baan kies jij, Max of Moritz?</p>
-		<a href="attracties.html">Ontdek Max &amp; Moritz ></a>
-	</section>
+		<!--WAAGHALZEN-->
+		<section>
+			<img src="images/waaghalzen.jpg" alt="waaghalzen">
+				<div>
+					<h2>Waaghalzen</h2>
+					<p>Durf jij over de kop te gaan of het diepe in te duiken? Ook voor waaghalzen heeft de Efteling een groot assortiment attracties.</p>
+				</div>
+			<a href="attracties.html">Attracties voor waaghalzen</a>
+		</section>
 
-	<section class="plattegrond">
-		<div>
-			<!--<img src="images/plattegrond.png" alt="plattegrond"> -->
-			<h1>ontdek de wondere wereld van de efteling</h1>
-			<a href="index.html">Bekijk de plattegrond</a>
+		<!-- BEKIJK ATTRACTIES BUTTON -->
+		<div id="b_attracties">
+			<a href="attracties.html">Bekijk alle attracties</a>
 		</div>
-	</section>
 
-	<!-- class is makkelijk omdat deze wordt gebruikt op beide pagina's -->
-	<section class="scroll-to-top">
-		<button type="button">&uarr;</button>
-	</section>
+		<!-- MAX EN MORITZ -->
+		<section>
+			<img src="images/max-en-moritz.jpg" alt="maxenmoritz">
+			<h2>Max &amp; Moritz nu geopend!</h2>
+			<hr>
+			<p>In de dubbele achtbaan Max & Moritz beleef je met de hele familie een spannende, doldwaze rit vol streken.
+				Ontsnap samen met Max en Moritz uit de koekoeksklokkenwerkplaats in een van hun zeepkisten.
+				Welke baan kies jij, Max of Moritz?</p>
+			<a href="attracties.html">Ontdek Max &amp; Moritz ></a>
+		</section>
 
-</main>
+		<!-- PLATTEGROND -->
+		<section>
+				<h2>ontdek de wondere wereld van de efteling</h2>
+				<a href="index.html">Bekijk de plattegrond</a>
+		</section>
 
-<footer>
-	<!-- footer section als selector werkte niet... vandaar een class-->
-	<section>
-		<h2>Home / Park / Attracties</h2>
-	</section>
-	<article>
-		<ul>
-			<!-- het park-->
-			<li id="het_park_btn_footer"><span>Het park</span>
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-					<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
-				</svg>
+		<!-- SCROLL TO TOP -->
+		<!-- class is makkelijk omdat deze wordt gebruikt op beide pagina's -->
+		<section class="scroll-to-top">
+			<button type="button">&uarr;</button>
+		</section>
 
-				<ul id="het_park_menu_footer">
-					<li><a>Attracties</a></li>
-					<li><a>Openingstijden en drukte</a></li>
-					<li><a>Attracties in onderhoud</a></li>
-					<li><a>Parkbezoek met kinderen</a></li>
-					<li><a>Groepsuitjes</a></li>
-					<li><a>School uitjes</a></li>
-				</ul>
-			</li>
+	</main>
 
-			<!-- over de efteling -->
-			<li id="over_efteling_btn"><span>Over de Efteling</span>
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-					<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
-				</svg>
 
-				<ul id="over_efteling_menu">
-					<li><a>Adres en route</a></li>
-					<li><a>Prijsinformatie</a></li>
-					<li><a>Abonnementen</a></li>
-					<li><a>Organisatie</a></li>
-					<li><a>Werken bij de Efteling</a></li>
-					<li><a>vacatures</a></li>
-				</ul>
-			</li>
+	<footer>
+		<!-- footer section als selector werkte niet... vandaar een class-->
+		<section>
+			<h2>Home / Park</h2>
+		</section>
+		<article>
+			<ul>
+				<!-- het park-->
+				<li id="het_park_btn_footer"><span>Het park</span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
+					</svg>
 
-			<!-- meer efteling -->
-			<li id="meer_efteling_btn_footer"><span>Meer Efteling</span>
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-					<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
-				</svg>
+					<ul id="het_park_menu_footer">
+						<li><a>Attracties</a></li>
+						<li><a>Openingstijden en drukte</a></li>
+						<li><a>Attracties in onderhoud</a></li>
+						<li><a>Parkbezoek met kinderen</a></li>
+						<li><a>Groepsuitjes</a></li>
+						<li><a>School uitjes</a></li>
+					</ul>
+				</li>
 
-				<ul id="meer_efteling_menu_footer">
-					<li><a>Adres en route</a></li>
-					<li><a>Prijsinformatie</a></li>
-					<li><a>Abonnementen</a></li>
-					<li><a>Organisatie</a></li>
-					<li><a>Werken bij de Efteling</a></li>
-					<li><a>vacatures</a></li>
-				</ul>
-			</li>
+				<!-- over de efteling -->
+				<li id="over_efteling_btn"><span>Over de Efteling</span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
+					</svg>
 
-			<!-- nieuwsbrief -->
-			<li id="nieuwsbrief_btn"><span>Nieuwsbrief</span>
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-					<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
-				</svg>
+					<ul id="over_efteling_menu">
+						<li><a>Adres en route</a></li>
+						<li><a>Prijsinformatie</a></li>
+						<li><a>Abonnementen</a></li>
+						<li><a>Organisatie</a></li>
+						<li><a>Werken bij de Efteling</a></li>
+						<li><a>vacatures</a></li>
+					</ul>
+				</li>
 
-				<ul id="nieuwsbrief_menu">
-					<li><a>Adres en route</a></li>
-					<li><a>Prijsinformatie</a></li>
-					<li><a>Abonnementen</a></li>
-					<li><a>Organisatie</a></li>
-					<li><a>Werken bij de Efteling</a></li>
-					<li><a>vacatures</a></li>
-				</ul>
-			</li>
-		</ul>
-	</article>
+				<!-- meer efteling -->
+				<li id="meer_efteling_btn_footer"><span>Meer Efteling</span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
+					</svg>
 
-	<article>
-		<p>@ Efteling 2020</p>
-		<p>Privacy statement</p>
-		<p>Algemene voorwaarden</p>
-		<p>Contact en klantenservice</p>
-	</article>
-</footer>
-	<script src="scripts/script.js"></script>
-</body>
+					<ul id="meer_efteling_menu_footer">
+						<li><a>Adres en route</a></li>
+						<li><a>Prijsinformatie</a></li>
+						<li><a>Abonnementen</a></li>
+						<li><a>Organisatie</a></li>
+						<li><a>Werken bij de Efteling</a></li>
+						<li><a>vacatures</a></li>
+					</ul>
+				</li>
+
+				<!-- nieuwsbrief -->
+				<li id="nieuwsbrief_btn"><span>Nieuwsbrief</span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
+					</svg>
+
+					<ul id="nieuwsbrief_menu">
+						<li><a>Adres en route</a></li>
+						<li><a>Prijsinformatie</a></li>
+						<li><a>Abonnementen</a></li>
+						<li><a>Organisatie</a></li>
+						<li><a>Werken bij de Efteling</a></li>
+						<li><a>vacatures</a></li>
+					</ul>
+				</li>
+			</ul>
+		</article>
+
+		<article>
+			<p>@ Efteling 2020</p>
+			<p>Privacy statement</p>
+			<p>Algemene voorwaarden</p>
+			<p>Contact en klantenservice</p>
+		</article>
+	</footer>
+		<script src="scripts/script.js"></script>
+	</body>
 
 </html>
